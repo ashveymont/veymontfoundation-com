@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# The Veymont Foundation
 
-## Getting Started
+Private humanitarian foundation website.  
+Built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion.
 
-First, run the development server:
+## Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Framework:** Next.js 14 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS + CSS custom properties
+- **Animation:** Framer Motion
+- **Fonts:** Cormorant Garamond + Inter (Google Fonts)
+- **Images:** next/image (local assets only)
+- **Deployment:** Vercel
+- **Database:** None — fully static
+
+## Pages
+
+| Route             | Page          |
+|-------------------|---------------|
+| `/`               | Home          |
+| `/mission`        | Mission       |
+| `/initiatives`    | Initiatives   |
+| `/founder`        | Founder       |
+| `/impact`         | Impact        |
+| `/journal`        | Journal index |
+| `/journal/[slug]` | Journal entry |
+
+## Adding Journal Entries
+
+Edit `src/data/journal.ts`. Add a new object to the `journalEntries` array:
+
+```ts
+{
+  id:        '7',
+  slug:      'your-entry-slug',
+  title:     'Entry Title',
+  category:  'Reflection',
+  excerpt:   'One or two sentence excerpt shown on the journal index.',
+  body:      `First paragraph.
+
+Second paragraph.
+
+Third paragraph.`,
+  published:  true,
+  created_at: '2025-07-01T00:00:00Z',
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then redeploy:
+```bash
+vercel --prod
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Deployment takes approximately 60 seconds.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Image Assets
 
-## Learn More
+Foundation photos are stored in `public/images/founder/`.  
+Source files: HEIC format, converted to JPG for web.
 
-To learn more about Next.js, take a look at the following resources:
+## Brand Tokens
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Token      | Hex     | Name             |
+|------------|---------|------------------|
+| --white    | #F6F2EA | Foundation White |
+| --clay     | #A65A3A | Sacred Clay      |
+| --forest   | #24342A | Deep Forest      |
+| --copper   | #B86F3E | Burnt Copper     |
+| --obsidian | #171717 | Obsidian         |
+| --sand     | #E2D9CB | Sand             |
+| --mist     | #EDE8DF | Mist             |
+| --ink      | #2C2C2C | Ink              |
