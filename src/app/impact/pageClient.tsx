@@ -1,9 +1,12 @@
 'use client'
 
+import Link from 'next/link'
 import { motion } from 'framer-motion'
 import RevealOnScroll from '@/components/motion/RevealOnScroll'
 import RoadmapItem from '@/components/impact/RoadmapItem'
 import VMonogram from '@/components/brand/VMonogram'
+import ImpactStoryCard from '@/components/impact/ImpactStory'
+import { impactStories } from '@/data/impact-stories'
 
 const stats = [
   {
@@ -231,6 +234,37 @@ export default function ImpactClient() {
             ))}
           </div>
         </div>
+
+        {/* ── Impact Stories ── */}
+        <div style={{ padding: '0 0 80px' }}>
+          <RevealOnScroll>
+            <p
+              style={{
+                fontFamily:    "'Inter', 'Helvetica Neue', sans-serif",
+                fontWeight:    300,
+                fontSize:      '11px',
+                letterSpacing: '0.3em',
+                textTransform: 'uppercase',
+                color:         'var(--clay)',
+                marginBottom:  '48px',
+              }}
+            >
+              Behind the Numbers
+            </p>
+          </RevealOnScroll>
+          <div
+            style={{
+              display:             'grid',
+              gridTemplateColumns: 'repeat(2, 1fr)',
+              gap:                 '48px 60px',
+            }}
+            className="impact-stories-grid"
+          >
+            {impactStories.map((story, index) => (
+              <ImpactStoryCard key={story.id} story={story} index={index} />
+            ))}
+          </div>
+        </div>
       </section>
 
       {/* ── Pull note — full width ── */}
@@ -285,6 +319,33 @@ export default function ImpactClient() {
               delay={i * 0.08}
             />
           ))}
+
+          <RevealOnScroll>
+            <div
+              style={{
+                marginTop:  '64px',
+                paddingTop: '48px',
+                borderTop:  '1px solid var(--sand)',
+                textAlign:  'center',
+              }}
+            >
+              <p
+                style={{
+                  fontFamily:   "'Cormorant Garamond', Georgia, serif",
+                  fontStyle:    'italic',
+                  fontWeight:   300,
+                  fontSize:     '20px',
+                  color:        'var(--forest)',
+                  marginBottom: '20px',
+                }}
+              >
+                This is the itinerary. The horizon is a different page.
+              </p>
+              <Link href="/legacy" className="text-link" style={{ justifyContent: 'center' }}>
+                Read the Foundation&rsquo;s twenty-five year vision
+              </Link>
+            </div>
+          </RevealOnScroll>
         </div>
       </section>
 

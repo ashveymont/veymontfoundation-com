@@ -9,6 +9,13 @@ export interface JournalEntry {
   created_at: string
 }
 
+export interface LegacyDomain {
+  numeral:     string
+  name:        string
+  declaration: string
+  body:        string[]
+}
+
 export interface PhilosophyEssay {
   numeral: string
   title:   string

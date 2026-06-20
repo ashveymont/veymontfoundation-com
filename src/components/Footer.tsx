@@ -7,6 +7,7 @@ const navLinks = [
   { label: 'Initiatives', href: '/initiatives' },
   { label: 'Founder',     href: '/founder'     },
   { label: 'Letter',      href: '/letter'      },
+  { label: 'Legacy',      href: '/legacy'      },
   { label: 'Impact',      href: '/impact'      },
   { label: 'Journal',     href: '/journal'     },
   { label: 'Mission',     href: '/mission'     },

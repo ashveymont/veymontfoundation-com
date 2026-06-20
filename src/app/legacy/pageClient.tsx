@@ -4,21 +4,21 @@ import Link from 'next/link'
 import { motion } from 'framer-motion'
 import RevealOnScroll from '@/components/motion/RevealOnScroll'
 import VMonogram from '@/components/brand/VMonogram'
-import PhilosophyEssayBlock from '@/components/philosophy/PhilosophyEssay'
-import { philosophyEssays } from '@/data/philosophy'
+import LegacyHorizon from '@/components/legacy/LegacyHorizon'
+import { legacyDomains } from '@/data/legacy'
 
-function PhilosophyHero() {
+function LegacyHero() {
   return (
     <section
       style={{
-        minHeight:     '55vh',
-        background:    '#24342A',
+        minHeight:     '60vh',
+        background:    '#171717',
         display:       'flex',
         flexDirection: 'column',
         justifyContent:'flex-end',
         padding:       'clamp(100px, 12vw, 120px) clamp(24px, 5vw, 60px) 80px',
       }}
-      className="texture-dark-zone philosophy-hero"
+      className="texture-dark-zone legacy-hero"
     >
       <div style={{ maxWidth: '900px' }}>
         <motion.p
@@ -35,11 +35,11 @@ function PhilosophyHero() {
             marginBottom:  '28px',
           }}
         >
-          Our Philosophy
+          The Road Ahead
         </motion.p>
 
         <h1 style={{ margin: 0 }}>
-          {['A philosophy', 'that operates programs.'].map((line, i) => (
+          {['What we hope to become', 'in twenty-five years.'].map((line, i) => (
             <motion.span
               key={line}
               initial={{ opacity: 0, y: 16 }}
@@ -58,7 +58,7 @@ function PhilosophyHero() {
                 color:      '#F6F2EA',
                 lineHeight: 1.05,
               }}
-              className="philosophy-h1"
+              className="legacy-h1"
             >
               {line}
             </motion.span>
@@ -69,14 +69,11 @@ function PhilosophyHero() {
   )
 }
 
-function PhilosophyIntro() {
+function LegacyFraming() {
   return (
     <section
-      style={{
-        background: '#F6F2EA',
-        padding:    '100px 60px 60px',
-      }}
-      className="philosophy-intro"
+      style={{ background: '#F6F2EA', padding: '100px 60px 80px' }}
+      className="legacy-framing"
     >
       <div style={{ maxWidth: '720px', margin: '0 auto' }}>
         <RevealOnScroll>
@@ -89,11 +86,32 @@ function PhilosophyIntro() {
               color:      '#24342A',
               lineHeight: 1.5,
               textAlign:  'center',
-              margin:     0,
+              marginBottom: '32px',
             }}
           >
-            Most organizations form around a problem. This one formed around a debt — and everything
-            below is an attempt to explain what that means in practice.
+            This is not a roadmap. A roadmap has dates. This is a declaration of intent — what the
+            Foundation hopes to be, decades from now, regardless of how long any single phase takes
+            to arrive.
+          </p>
+          <p
+            style={{
+              fontFamily:   "'Inter', 'Helvetica Neue', sans-serif",
+              fontWeight:   300,
+              fontSize:     '16px',
+              color:        '#2C2C2C',
+              opacity:      0.75,
+              lineHeight:   1.85,
+              textAlign:    'center',
+              maxWidth:     '580px',
+              margin:       '0 auto',
+            }}
+          >
+            For the operational timeline — what is active now and what comes next — see the
+            Foundation&rsquo;s{' '}
+            <Link href="/impact" className="text-link" style={{ display: 'inline-flex' }}>
+              impact page
+            </Link>
+            . What follows here is the horizon, not the itinerary.
           </p>
         </RevealOnScroll>
       </div>
@@ -101,68 +119,48 @@ function PhilosophyIntro() {
   )
 }
 
-function PhilosophyClosing() {
+function LegacyClosing() {
   return (
     <section
       style={{
-        padding:    '140px 60px',
+        padding:    '160px 60px',
         textAlign:  'center',
-        background: 'var(--obsidian)',
+        background: 'var(--forest)',
       }}
-      className="texture-dark-zone philosophy-closing"
+      className="texture-dark-zone legacy-closing"
     >
       <RevealOnScroll>
-        <VMonogram size={20} color="var(--copper)" opacity={0.25} />
+        <VMonogram size={48} color="var(--copper)" opacity={0.4} />
+      </RevealOnScroll>
+      <RevealOnScroll delay={0.15}>
         <p
           style={{
             fontFamily: "'Cormorant Garamond', Georgia, serif",
             fontWeight: 300,
             fontStyle:  'italic',
-            fontSize:   'clamp(24px, 3vw, 42px)',
+            fontSize:   'clamp(26px, 3.5vw, 48px)',
             color:      'var(--white)',
-            lineHeight: 1.35,
-            maxWidth:   '680px',
-            margin:     '24px auto 48px',
+            lineHeight: 1.3,
+            maxWidth:   '720px',
+            margin:     '32px auto 0',
           }}
         >
-          What is given to us should be given forward. Everything on this page is an explanation of
-          that one sentence.
+          None of this needs to happen quickly. It only needs to keep happening.
         </p>
-      </RevealOnScroll>
-      <RevealOnScroll delay={0.15}>
-        <div
-          style={{
-            display:     'flex',
-            gap:         '40px',
-            justifyContent: 'center',
-            flexWrap:    'wrap',
-          }}
-          className="philosophy-closing-links"
-        >
-          <Link href="/letter" className="text-link" style={{ color: 'var(--copper)' }}>
-            Read the founder&rsquo;s letter
-          </Link>
-          <Link href="/legacy" className="text-link" style={{ color: 'var(--copper)' }}>
-            See the road ahead
-          </Link>
-          <Link href="/impact" className="text-link" style={{ color: 'var(--copper)' }}>
-            See it in practice
-          </Link>
-        </div>
       </RevealOnScroll>
     </section>
   )
 }
 
-export default function PhilosophyClient() {
+export default function LegacyClient() {
   return (
     <>
-      <PhilosophyHero />
-      <PhilosophyIntro />
-      {philosophyEssays.map((essay, index) => (
-        <PhilosophyEssayBlock key={essay.numeral} essay={essay} index={index} />
-      ))}
-      <PhilosophyClosing />
+      <LegacyHero />
+      <LegacyFraming />
+      <section style={{ background: 'var(--white)', padding: '60px 0 160px' }}>
+        <LegacyHorizon domains={legacyDomains} />
+      </section>
+      <LegacyClosing />
     </>
   )
 }
