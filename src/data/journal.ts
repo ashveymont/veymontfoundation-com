@@ -264,25 +264,6 @@ What I took from watching her, more than any specific lesson, was a kind of proo
     created_at:  '2026-01-01T00:00:00Z',
   },
   {
-    id:          '13',
-    slug:        'why-a-meal-is-never-just-a-meal',
-    title:       'Why A Meal Is Never Just A Meal',
-    category:    'Nourishment',
-    excerpt:     'If you reduce it to its components, a meal is calories, protein, the basic chemistry required to keep a body functioning. I have handed out enough of them now to know that this description, while technically accurate, misses almost everything that actually happens.',
-    body:        `If you reduce it to its components, a meal is calories, protein, the basic chemistry required to keep a body functioning. I have handed out enough of them now to know that this description, while technically accurate, misses almost everything that actually happens.
-
-A meal handed to someone is also, simultaneously, a series of other things that have nothing to do with nutrition. It is an acknowledgment that you exist. It is a small, temporary suspension of whatever calculation that person has been running about how to get through the next several hours. It is, often, the first thing that day that was given to them rather than something they had to negotiate, ask for, or justify needing.
-
-I have watched people's posture change while eating — not dramatically, just a slight loosening, the kind that happens when a body briefly stops bracing for something. I don't think that loosening is about the food itself. I think it's about what the food represents in that specific moment: a few minutes where nothing else is required of them.
-
-I used to think the goal of distributing meals was to address hunger. I still think that's true, but I no longer think it's the whole truth. Hunger is the visible problem, the one you can point to and measure. But I think what actually gets addressed, underneath the hunger, is something closer to isolation — the particular loneliness of being a person whose needs are routinely treated as inconvenient or invisible by the systems around them.
-
-A meal cannot fix that condition. One meal changes nothing structural about anyone's circumstances. But it can, for the length of time it takes to eat it, interrupt the condition. I have come to believe that interruption matters more than its brief duration would suggest. People remember being seen far longer than they remember being fed.`,
-    published:   true,
-    cornerstone: false,
-    created_at:  '2026-02-01T00:00:00Z',
-  },
-  {
     id:          '14',
     slug:        'success-is-not-what-i-thought-it-was',
     title:       'Success Is Not What I Thought It Was',
@@ -294,9 +275,9 @@ I want to be precise about what I mean, because this kind of statement can sound
 
 My early picture of success had an implicit promise built into it, one I never examined closely enough to notice I was relying on: that enough achievement would eventually produce a settled feeling, a sense of having arrived somewhere stable, where the striving could finally stop. What I found instead was that each achievement simply relocated the goalpost slightly further out, and the striving did not stop, it just changed its target.
 
-I do not think this is a unique discovery. I think it is one of the more common realizations successful people eventually have, late enough that they've already spent years organizing their life around the original, mistaken picture. What I would tell my younger self, if the conversation were possible, is not that success is meaningless — it isn't — but that it was never going to be the thing that answered the question I was actually asking. I was asking, underneath everything, whether my life mattered to anyone besides me. Success cannot answer that question. It was never built to.
+I do not think this is a unique discovery. I think it is one of the more common realizations successful people eventually have, late enough that they've already spent years organizing their life around the original, mistaken picture. What strikes me now, looking back, is that I never actually chose that picture. I inherited the expectation that achievement would answer the question of whether my life mattered, the way you inherit a native language — so early and so completely that you never notice it was a choice someone else made for you.
 
-What has come closer to answering it, unexpectedly, is the Foundation — not because it is more impressive than the businesses, it is far smaller and far less impressive by any conventional measure, but because it is the first thing I have built where the value is measured in someone else's evening rather than my own balance sheet. I did not redefine success on purpose. I just noticed, eventually, that the old definition had quietly stopped being the thing I was actually chasing.`,
+I am not sure I have fully replaced it with anything better. I have simply started noticing, more often than I used to, the moments when I am still running the old calculation without meaning to — still half-expecting the next milestone to deliver the settled feeling the last one didn't. I don't think the inheritance disappears just because you've identified it. I think you just get a little faster at recognizing it for what it is, each time it shows up uninvited.`,
     published:   true,
     cornerstone: false,
     created_at:  '2026-03-01T00:00:00Z',

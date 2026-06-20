@@ -20,6 +20,10 @@ export default function Nav() {
   const [mobileOpen, setMobileOpen] = useState(false)
   const pathname = usePathname()
 
+  const darkHeroRoutes = ['/', '/mission', '/founder', '/legacy', '/initiatives', '/philosophy', '/journal']
+  const isDarkHero     = darkHeroRoutes.includes(pathname)
+  const navTextColor   = (!scrolled && isDarkHero) ? 'var(--white)' : 'var(--obsidian)'
+
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40)
     window.addEventListener('scroll', onScroll, { passive: true })
@@ -54,7 +58,7 @@ export default function Nav() {
           <VMonogram size={14} color="var(--copper)" opacity={0.6} />
           <span
             className="font-display font-light text-[15px] tracking-[0.25em] uppercase"
-            style={{ color: 'var(--obsidian)' }}
+            style={{ color: navTextColor }}
           >
             The Veymont Foundation
           </span>
@@ -62,14 +66,16 @@ export default function Nav() {
 
         <ul className="hidden md:flex items-center gap-10 list-none">
           {navLinks.map(({ label, href }) => {
-            const active = pathname === href
+            const active = href === '/'
+              ? pathname === '/'
+              : pathname === href || pathname.startsWith(`${href}/`)
             return (
               <li key={href}>
                 <Link
                   href={href}
                   className="font-body text-[12px] tracking-[0.18em] uppercase no-underline transition-opacity duration-200"
                   style={{
-                    color:   'var(--obsidian)',
+                    color:   navTextColor,
                     opacity: active ? 1 : 0.55,
                   }}
                   onMouseEnter={e => (e.currentTarget.style.opacity = '1')}
@@ -88,9 +94,9 @@ export default function Nav() {
           onClick={() => setMobileOpen(true)}
           aria-label="Open navigation"
         >
-          <span className="block w-6 h-px" style={{ background: 'var(--obsidian)' }} />
-          <span className="block w-6 h-px" style={{ background: 'var(--obsidian)' }} />
-          <span className="block w-6 h-px" style={{ background: 'var(--obsidian)' }} />
+          <span className="block w-6 h-px" style={{ background: navTextColor }} />
+          <span className="block w-6 h-px" style={{ background: navTextColor }} />
+          <span className="block w-6 h-px" style={{ background: navTextColor }} />
         </button>
       </motion.nav>
 

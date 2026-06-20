@@ -86,7 +86,7 @@ export default function Footer() {
               >
                 No Public Donations
               </span>
-              <Link href="/mission" className="footer-link font-body font-light text-[13px]">
+              <Link href="/philosophy" className="footer-link font-body font-light text-[13px]">
                 Our Philosophy
               </Link>
               <Link href="/founder" className="footer-link font-body font-light text-[13px]">

@@ -3,7 +3,7 @@ import { Initiative } from '@/types'
 export const nourishment: Initiative = {
   numeral: 'I',
   name:    'Nourishment',
-  lead:    'Food is not simply nutrition. It is the first language of care. When someone offers you a meal, they are saying: you matter. You are seen. You deserve this.',
+  lead:    'Food is not simply nutrition. It is the first language of care. When someone offers a meal, they are saying: you matter. You are seen. This is deserved.',
   body: [
     'For years, Ashan Veymont has personally distributed freshly prepared biryani meals and clean bottled water to homeless and underprivileged individuals across his community. This is not a programme with a logo and a press release. It is a recurring, personal act of service — conducted with quiet consistency and without condition.',
     'The Foundation\'s nourishment work begins here: with the personal. With the direct. With the understanding that a single meal, given with genuine warmth, can restore something in a person that poverty has taken away.',

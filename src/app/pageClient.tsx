@@ -434,8 +434,8 @@ function FounderStripSection() {
 
 const impactStats = [
   { figure: '7,200', sup: '+', label: 'Meals Distributed' },
-  { figure: '3',   sup: '',  label: 'Communities Served' },
-  { figure: '1',   sup: '',  label: 'Active Initiative' },
+  { figure: '3',   sup: '',  label: 'Communities Reached' },
+  { figure: '1',   sup: '',  label: 'Area of Service' },
   { figure: '∞',   sup: '',  label: 'The Work Ahead' },
 ]
 

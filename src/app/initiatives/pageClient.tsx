@@ -99,7 +99,7 @@ export default function InitiativesClient() {
 
       <InitiativeSection initiative={nourishment} index={1} />
 
-      <VoiceNote text="The Foundation didn't begin when the website launched. It began years ago on a street corner with a packet of biryani." />
+      <VoiceNote text="The Foundation didn't begin when this website went live. It began years ago on a street corner with a packet of biryani." />
 
       {/* ── Full-screen quote pause ── */}
       <section
