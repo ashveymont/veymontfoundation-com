@@ -181,4 +181,67 @@ That is what I hope outlives me. Not a legacy with my name on it. A debt, being 
     cornerstone: true,
     created_at:  '2025-09-01T00:00:00Z',
   },
+  {
+    id:          '9',
+    slug:        'why-success-without-service-feels-empty',
+    title:       'Why Success Without Service Feels Empty',
+    category:    'Reflection',
+    excerpt:     "I have hit numbers I once thought would feel like arrival. They didn't. Not in the way I expected. I want to try to explain why, because I think the answer matters more than the numbers did.",
+    body:        `I have hit numbers I once thought would feel like arrival. They didn't. Not in the way I expected. I want to try to explain why, because I think the answer matters more than the numbers did.
+
+For a long time I assumed the emptiness, when it came, would mean I hadn't achieved enough yet. That the next milestone would be the one that finally landed. I chased a few of those next milestones specifically to test the theory. The pattern held. Each one delivered a brief, real satisfaction — and then a quiet, equally real flatness within a week or two, like a held breath being let out.
+
+I do not think this means success is worthless. I think it means success was never built to hold the kind of weight I was asking it to hold. A number in a bank account, a business that works, a title — these things confirm that you did something correctly. They are not built to answer the question of whether what you did mattered to anyone besides you.
+
+The first time a meal I personally handed someone actually changed their evening — not their life, not their circumstances, just their evening — I felt something that none of the business milestones had given me. I have thought about why a great deal since. The best explanation I have is that success answers "did I do this well," and service answers "did this do anything for someone other than me." I had been answering the first question for years. I had barely asked the second one.
+
+I do not think you have to choose between the two. I have not chosen between them — I still run businesses, and I still want them to succeed, because the Foundation depends on their success to exist at all. But I no longer expect the business side to answer a question it was never designed to answer. I look for that answer somewhere else now. I have found it, more reliably than anywhere, in the moments where what I built or earned actually left my hands and became someone else's.
+
+Success without service does not feel bad, exactly. It feels incomplete. Like a sentence that technically ends but doesn't actually conclude.`,
+    published:   true,
+    cornerstone: false,
+    created_at:  '2025-10-01T00:00:00Z',
+  },
+  {
+    id:          '10',
+    slug:        'the-kindness-we-never-hear-about',
+    title:       'The Kindness We Never Hear About',
+    category:    'Reflection',
+    excerpt:     "Most of the kindness I have witnessed in the last several years has had no audience at all. I think that's actually the most important thing I could tell you about it.",
+    body:        `Most of the kindness I have witnessed in the last several years has had no audience at all. I think that's actually the most important thing I could tell you about it.
+
+There is a version of generosity that happens in front of people — a public gesture, a visible donation, an act performed at least partly because it will be seen. I don't think there's anything wrong with that version. Visible generosity still moves real resources, and it can genuinely inspire other people to act. But it is not the version that has changed how I think about human beings.
+
+The version that changed me is quieter, and I have seen it constantly, almost always by accident. A stranger giving up a seat without being asked and without looking around afterward to see if anyone noticed. Someone in a community we serve sharing part of their own small portion with someone who had even less, when there was no possible benefit to them in doing so and no one keeping count. A man who had very little offering directions, unprompted, to someone clearly lost, then continuing on without waiting to be thanked.
+
+None of this makes the news. None of it gets photographed. I think there's a reasonable argument that most of the kindness that actually happens in the world is invisible by its nature — that the moment it becomes visible, some small percentage of its motivation shifts toward being seen, and it becomes a slightly different thing.
+
+I bring this up because I think it's easy, especially now, to conclude that people are mostly self-interested, mostly indifferent, mostly looking out for themselves first. I understand why that conclusion is tempting. The visible evidence often points that way. But the visible evidence is a biased sample — it only captures the kindness that happened to be witnessed, which is a small and unrepresentative fraction of all the kindness that actually occurs.
+
+I have started keeping a kind of private ledger, not written down anywhere, just in memory — small acts I happened to see that no one else seemed to notice. It is longer than I expected when I started paying attention. I think most people's would be, if they looked.`,
+    published:   true,
+    cornerstone: false,
+    created_at:  '2025-11-01T00:00:00Z',
+  },
+  {
+    id:          '11',
+    slug:        'why-humanity-is-worth-believing-in',
+    title:       'Why Humanity Is Worth Believing In',
+    category:    'Reflection',
+    excerpt:     "I don't think this is naive. I want to say that up front, because the moment you say something like this out loud, the assumption is usually that you haven't looked closely enough at the evidence.",
+    body:        `I don't think this is naive. I want to say that up front, because the moment you say something like this out loud, the assumption is usually that you haven't looked closely enough at the evidence. I have looked. I have spent a meaningful amount of time in the last several years in close, unfiltered contact with people going through real hardship, which is generally considered the kind of exposure that cures naivety rather than sustains it.
+
+It has done the opposite for me.
+
+What I expected, going in, was to find people worn down by circumstance into something harder and more guarded than they otherwise would have been. I found some of that. I will not pretend otherwise. But far more often I found something I did not expect: people who had very little still actively looking for ways to be generous with what little they had. People who had been let down repeatedly still extending trust to a stranger handing them a bottle of water. Humor, in places I would have expected only exhaustion. Warmth offered to me, specifically, with no plausible motive beyond the fact that warmth was simply how this person related to another human being standing in front of them.
+
+I think there is a tendency to believe that hardship reveals what people really are underneath — strips away the comfortable performance and shows the raw material. If that's true, then what I have actually witnessed, over and over, is that the raw material is frequently better than the performance. People under real pressure have shown me more unguarded decency than I typically encounter in rooms full of people who have nothing to complain about.
+
+I do not think this means suffering is good for people, or that hardship builds character in some tidy moral sense. I am not interested in romanticizing difficulty. I think it means something more specific: that the instinct toward kindness runs deeper in most people than their circumstances, and that it tends to survive conditions that would seem, on paper, sufficient to extinguish it.
+
+That is why I believe in humanity, as a practical matter and not a sentimental one. Not because people are uniformly good — they are not, and I have seen the exceptions too. But because the baseline, even under real pressure, even with very little to spare, keeps turning out to be better than I was prepared for. I have stopped being surprised by it. I have started expecting it. So far, more often than not, I have been right to.`,
+    published:   true,
+    cornerstone: false,
+    created_at:  '2025-12-01T00:00:00Z',
+  },
 ]
