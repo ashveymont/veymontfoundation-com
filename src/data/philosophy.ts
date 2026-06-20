@@ -64,4 +64,22 @@ export const philosophyEssays: PhilosophyEssay[] = [
       "The test we return to is simple. Would this still matter, still function, still serve people faithfully, long after the person who started it is no longer the one running it? We are building toward a future where the answer is yes.",
     ],
   },
+  {
+    numeral: 'VIII',
+    title:   'Compassion',
+    body: [
+      'Compassion is often mistaken for a feeling. We think of it that way too, some days. But the feeling is not what matters. What matters is what the feeling makes you do.',
+      "It is possible to feel a great deal of compassion and act on none of it — to be moved by someone's circumstances and then simply continue with your day, the feeling having changed nothing except your own internal weather for a moment. We have tried to build something that does not let compassion stop at the feeling. A meal handed over, a question asked and actually listened to, a return visit when none was promised — these are compassion with somewhere to go.",
+      'We do not think compassion needs to announce itself to be real. Most of what we have learned about it has come from moments no one was watching and no record was kept of.',
+    ],
+  },
+  {
+    numeral: 'IX',
+    title:   'Stewardship',
+    body: [
+      'Stewardship is the belief that what you hold was never fully yours to begin with.',
+      'We did not build the conditions that gave us access to food, education, and healthcare. Those conditions existed before us and, if we do this well, will continue after us. A steward does not own what they are responsible for. They simply hold it carefully, for a while, with the understanding that it will pass through other hands eventually — and that how well they cared for it during their time is the only thing they actually control.',
+      'We try to think of everything the Foundation has — its resources, its trust within the communities it serves, even its name — as held in this way. Not possessed. Carried, for now, with the intention of carrying it well.',
+    ],
+  },
 ]
