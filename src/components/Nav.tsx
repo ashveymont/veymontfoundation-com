@@ -45,7 +45,7 @@ export default function Nav() {
           paddingBottom:   scrolled ? '18px' : '28px',
         }}
         transition={{ duration: 0.4, ease: 'easeInOut' }}
-        style={{ paddingLeft: '60px', paddingRight: '60px' }}
+        style={{ paddingLeft: 'clamp(16px, 5vw, 60px)', paddingRight: 'clamp(16px, 5vw, 60px)' }}
       >
         <Link
           href="/"
@@ -83,7 +83,8 @@ export default function Nav() {
         </ul>
 
         <button
-          className="md:hidden flex flex-col gap-[5px] cursor-pointer bg-transparent border-0 p-1"
+          className="md:hidden flex flex-col gap-[5px] cursor-pointer bg-transparent border-0"
+          style={{ padding: '10px', minWidth: '44px', minHeight: '44px', alignItems: 'center', justifyContent: 'center' }}
           onClick={() => setMobileOpen(true)}
           aria-label="Open navigation"
         >
@@ -104,8 +105,19 @@ export default function Nav() {
             transition={{ duration: 0.3 }}
           >
             <button
-              className="absolute top-7 right-6 text-3xl cursor-pointer bg-transparent border-0"
-              style={{ color: 'var(--obsidian)' }}
+              className="absolute cursor-pointer bg-transparent border-0"
+              style={{
+                top:            '16px',
+                right:          '16px',
+                color:          'var(--obsidian)',
+                fontSize:       '28px',
+                lineHeight:     1,
+                minWidth:       '44px',
+                minHeight:      '44px',
+                display:        'flex',
+                alignItems:     'center',
+                justifyContent: 'center',
+              }}
               onClick={() => setMobileOpen(false)}
               aria-label="Close navigation"
             >

@@ -34,12 +34,21 @@ export const metadata: Metadata = {
     siteName:    'The Veymont Foundation',
     title:       'The Veymont Foundation',
     description: 'What is given to us should be given forward.',
+    images: [
+      {
+        url:    '/opengraph-image',
+        width:  1200,
+        height: 630,
+        alt:    'The Veymont Foundation',
+      },
+    ],
   },
 
   twitter: {
     card:        'summary_large_image',
     title:       'The Veymont Foundation',
     description: 'What is given to us should be given forward.',
+    images:      ['/opengraph-image'],
   },
 
   robots: {
@@ -55,8 +64,11 @@ export const metadata: Metadata = {
   },
 
   icons: {
-    icon:  '/favicon.svg',
-    apple: '/favicon.svg',
+    icon: [
+      { url: '/favicon.svg',      type: 'image/svg+xml' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: '/apple-touch-icon.png',
   },
 }
 

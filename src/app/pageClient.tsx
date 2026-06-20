@@ -146,7 +146,7 @@ function HeroSection() {
 
 function PhilosophySection() {
   return (
-    <section style={{ background: '#F6F2EA', padding: '160px 60px' }}>
+    <section style={{ background: '#F6F2EA', padding: '160px 60px' }} className="home-section">
       <div
         style={{
           maxWidth: '1100px',
@@ -266,7 +266,7 @@ const pillars = [
 
 function PillarsSection() {
   return (
-    <section style={{ background: '#24342A', padding: '120px 60px' }} className="texture-dark-zone">
+    <section style={{ background: '#24342A', padding: '120px 60px' }} className="texture-dark-zone home-section">
       {/* Header */}
       <RevealOnScroll>
         <div style={{ textAlign: 'center', marginBottom: '80px' }}>
@@ -364,7 +364,7 @@ function PillarCard({ pillar }: { pillar: typeof pillars[0] }) {
 
 function FounderStripSection() {
   return (
-    <section style={{ background: '#F6F2EA', padding: '140px 60px' }}>
+    <section style={{ background: '#F6F2EA', padding: '140px 60px' }} className="home-section">
       <div
         style={{
           maxWidth: '800px',
@@ -440,7 +440,7 @@ const impactStats = [
 
 function ImpactNumbersSection() {
   return (
-    <section style={{ background: '#E2D9CB', padding: '100px 60px' }}>
+    <section style={{ background: '#E2D9CB', padding: '100px 60px' }} className="home-section">
       <p
         className="eyebrow"
         style={{ textAlign: 'center', marginBottom: '64px' }}
@@ -527,7 +527,7 @@ const visionItems = [
 
 function VisionSection() {
   return (
-    <section style={{ background: '#F6F2EA', padding: '140px 60px' }}>
+    <section style={{ background: '#F6F2EA', padding: '140px 60px' }} className="home-section">
       <div
         style={{
           maxWidth: '1200px',
@@ -584,6 +584,7 @@ function VisionSection() {
             {visionItems.map((item, i) => (
               <div
                 key={item.name}
+                className="vision-item"
                 style={{
                   display: 'flex',
                   justifyContent: 'space-between',
@@ -636,7 +637,7 @@ const previewEntries = [...journalEntries]
 
 function JournalPreviewSection() {
   return (
-    <section style={{ background: '#171717', padding: '120px 60px' }} className="texture-dark-zone">
+    <section style={{ background: '#171717', padding: '120px 60px' }} className="texture-dark-zone home-section">
       <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
         {/* Header */}
         <div
@@ -738,7 +739,7 @@ function JournalPreviewSection() {
 
 function ClosingSection() {
   return (
-    <section style={{ background: '#F6F2EA', padding: '200px 60px' }}>
+    <section style={{ background: '#F6F2EA', padding: '200px 60px' }} className="home-section">
       <div
         style={{
           maxWidth: '700px',

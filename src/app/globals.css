@@ -104,6 +104,14 @@ h1, h2, h3, h4 {
 }
 .footer-link:hover { color: var(--white); }
 
+/* ── Touch target: text-links (mobile only to avoid layout shifts at desktop) ── */
+@media (max-width: 768px) {
+  .text-link {
+    padding:    10px 0;
+    min-height: 44px;
+  }
+}
+
 /* ── Journal card hover (no JS needed) ── */
 .journal-card-hover {
   transition: opacity 0.25s ease;
@@ -287,6 +295,33 @@ h1, h2, h3, h4 {
   .entry-back { padding: 80px 20px 0 !important; }
   .entry-body { padding: 0 20px 64px !important; }
   .entry-hero { padding: 32px 20px 48px !important; }
+}
+
+/* ── Mobile: home section horizontal padding ── */
+@media (max-width: 768px) {
+  .home-section { padding-left: 24px !important; padding-right: 24px !important; }
+}
+@media (max-width: 480px) {
+  .home-section { padding-left: 20px !important; padding-right: 20px !important; }
+}
+
+/* ── Mobile: vision item — wrap name + status on small screens ── */
+@media (max-width: 480px) {
+  .vision-item {
+    flex-wrap:   wrap !important;
+    gap:         4px !important;
+    align-items: flex-start !important;
+  }
+}
+
+/* ── Mobile: legacy node repositioning ── */
+@media (max-width: 768px) {
+  .legacy-node { left: 20px !important; }
+}
+
+/* ── Mobile: footer link tap targets ── */
+@media (max-width: 768px) {
+  .footer-link { padding: 11px 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {

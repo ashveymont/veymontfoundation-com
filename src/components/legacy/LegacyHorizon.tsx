@@ -45,6 +45,7 @@ export default function LegacyHorizon({ domains }: LegacyHorizonProps) {
               borderRadius: '50%',
               background:   'var(--clay)',
             }}
+            className="legacy-node"
           />
 
           <RevealOnScroll delay={index * 0.08}>
