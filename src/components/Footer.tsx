@@ -40,7 +40,7 @@ export default function Footer() {
               style={{ color: 'rgba(246,242,234,0.4)', maxWidth: '320px' }}
             >
               A privately funded humanitarian foundation improving human dignity through
-              nourishment, education, and healthcare. Est. 2024.
+              nourishment, education, and healthcare.
             </p>
           </div>
 
