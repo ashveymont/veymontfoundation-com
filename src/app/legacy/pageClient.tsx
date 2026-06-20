@@ -106,7 +106,7 @@ function LegacyFraming() {
               margin:       '0 auto',
             }}
           >
-            For the operational timeline — what is active now and what comes next — see the
+            For the practical timeline — what is active now and what comes next — see the
             Foundation&rsquo;s{' '}
             <Link href="/impact" className="text-link" style={{ display: 'inline-flex' }}>
               impact page

@@ -135,14 +135,19 @@ h1, h2, h3, h4 {
 /* ── Responsive: mission / founder ── */
 @media (max-width: 768px) {
   .mission-body, .mission-closing { padding: 60px 24px !important; }
-  .founder-body                   { padding: 60px 24px !important; }
+  .founder-body                   { padding: 60px 24px 48px !important; }
   .founder-pullquote              { padding: 32px 24px !important; }
   .founder-values                 { padding: 60px 24px !important; }
   .values-grid                    { grid-template-columns: 1fr !important; gap: 32px !important; }
+  .founder-moment                 { padding: 64px 24px !important; }
+  .founder-continuation           { padding: 48px 24px 80px !important; }
 }
 @media (max-width: 480px) {
   .mission-body, .mission-closing { padding: 56px 20px !important; }
   .founder-body, .founder-values  { padding: 56px 20px !important; }
+  .founder-moment                 { padding: 48px 20px !important; }
+  .founder-continuation           { padding: 40px 20px 64px !important; }
+  .founder-moment p               { font-size: 15px !important; }
 }
 
 /* ── Responsive: initiatives ── */

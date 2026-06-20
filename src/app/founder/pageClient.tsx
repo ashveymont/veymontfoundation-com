@@ -123,7 +123,7 @@ export default function FounderClient() {
       </section>
 
       {/* ── Body ── */}
-      <section style={{ padding: '100px 60px' }} className="founder-body">
+      <section style={{ padding: '100px 60px 80px' }} className="founder-body">
         <div style={{ maxWidth: '760px', margin: '0 auto' }}>
 
           {/* Lead quote */}
@@ -228,13 +228,66 @@ export default function FounderClient() {
                 textTransform: 'uppercase',
                 textAlign: 'center',
                 marginTop: '16px',
-                marginBottom: '60px',
+                marginBottom: '0',
               }}
             >
               Community distribution, Sri Lanka
             </p>
           </RevealOnScroll>
 
+        </div>
+      </section>
+
+      {/* ── The Moment I Realized ── */}
+      <section
+        style={{ background: 'var(--mist)', padding: '80px 60px' }}
+        className="founder-moment"
+      >
+        <div style={{ maxWidth: '700px', margin: '0 auto' }}>
+          <RevealOnScroll>
+            <p
+              style={{
+                fontFamily:    "'Inter', 'Helvetica Neue', sans-serif",
+                fontWeight:    300,
+                fontSize:      '11px',
+                letterSpacing: '0.3em',
+                textTransform: 'uppercase',
+                color:         'var(--clay)',
+                marginBottom:  '28px',
+              }}
+            >
+              The Moment I Realized
+            </p>
+          </RevealOnScroll>
+          <RevealOnScroll delay={0.1}>
+            {[
+              'There was no single dramatic instant. I want to be honest about that, because the version of this story that has a lightning-bolt moment is easier to tell and less true.',
+              'What happened instead was repetition. I kept noticing the same gap, over and over, in small ways — a child outside a school gate who clearly wasn\'t going in, a man asking for water rather than money, a conversation where someone mentioned, almost in passing, that they hadn\'t seen a doctor in years not because they were healthy but because they couldn\'t afford to find out otherwise. None of these were extraordinary. That was the point. They were ordinary, and they kept happening, and I kept being in a position to notice them.',
+              'The realization, when it actually arrived, was less of an event and more of a sentence that wouldn\'t leave me alone: I had never once had to wonder about any of this. Not food. Not school. Not a doctor. The absence of that worry had been so complete in my own life that I had never registered it as something I\'d been given. I had simply never thought about it at all — which, I came to understand, is exactly what privilege does. It doesn\'t announce itself. It just quietly removes a category of worry from your life so thoroughly that you forget the category ever existed.',
+              'Once I saw it, I couldn\'t unsee it. That\'s the closest thing to a moment I can point to — not the instant I understood, but the instant I stopped being able to look away from what I now understood.',
+            ].map((para, i, arr) => (
+              <p
+                key={i}
+                style={{
+                  fontFamily:   "'Inter', 'Helvetica Neue', sans-serif",
+                  fontWeight:   300,
+                  fontSize:     '17px',
+                  lineHeight:   1.95,
+                  color:        '#2C2C2C',
+                  opacity:      0.85,
+                  marginBottom: i < arr.length - 1 ? '28px' : '0',
+                }}
+              >
+                {para}
+              </p>
+            ))}
+          </RevealOnScroll>
+        </div>
+      </section>
+
+      {/* ── Continuation ── */}
+      <section style={{ padding: '80px 60px 100px' }} className="founder-continuation">
+        <div style={{ maxWidth: '760px', margin: '0 auto' }}>
           {/* Continuation paragraphs */}
           {continuationParas.map((para, i) => (
             <RevealOnScroll key={i} delay={para.delay}>

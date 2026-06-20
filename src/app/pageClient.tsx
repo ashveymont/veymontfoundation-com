@@ -571,7 +571,7 @@ function VisionSection() {
           >
             The Foundation is young. Its resources are growing. Its ambitions are patient but
             uncompromising. What begins today in personal meal distributions will grow, in time,
-            into community kitchens, school partnerships, and healthcare access programs that serve
+            into community kitchens, school partnerships, and healthcare access that serves
             people across borders and generations.
           </p>
           <Link href="/impact" className="text-link">

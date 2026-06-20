@@ -18,7 +18,7 @@ const principles = [
   {
     numeral: 'III',
     title: 'We grow as our capacity grows.',
-    body: "The Foundation does not overstate what it has achieved, nor make promises it cannot keep. It begins where it is. It builds carefully. And as the businesses that fund it grow, so does the Foundation's ability to serve — more people, in more places, across more of the three pillars that form its foundation.",
+    body: "The Foundation does not overstate what it has achieved, nor make promises it cannot keep. It begins where it is. It builds carefully. And as the businesses that fund it grow, so does the Foundation's ability to serve — more people, in more places, across more of the work it has chosen to carry.",
   },
   {
     numeral: 'IV',

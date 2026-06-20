@@ -24,7 +24,7 @@ const stats = [
   {
     figure:      '1',
     sup:         '',
-    label:       'Active Initiative',
+    label:       'Area of Service',
     description: 'Nourishment is the Foundation\'s first and currently active pillar. Education and healthcare initiatives are in development and will launch as capacity grows.',
   },
   {
