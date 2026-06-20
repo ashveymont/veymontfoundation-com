@@ -198,6 +198,26 @@ h1, h2, h3, h4 {
   .founder-image-wrap  { max-height: 360px !important; }
 }
 
+/* ── Letter page ── */
+@media (max-width: 768px) {
+  .letter-hero { padding: 120px 24px 60px !important; min-height: 40vh !important; }
+  .letter-h1   { font-size: clamp(28px, 7vw, 44px) !important; }
+  .letter-body { padding: 0 24px 120px !important; }
+  .letter-para { font-size: 17px !important; line-height: 1.9 !important; }
+  .letter-nav  { flex-direction: column !important; gap: 16px !important; }
+}
+@media (max-width: 480px) {
+  .letter-hero { padding: 100px 20px 48px !important; }
+  .letter-body { padding: 0 20px 80px !important; }
+  .letter-para { font-size: 16px !important; }
+}
+
+/* ── Letter page teaser + founder closing ── */
+@media (max-width: 768px) {
+  .letter-teaser        { padding: 48px 24px !important; }
+  .founder-letter-close { padding: 72px 24px !important; }
+}
+
 /* ── Journal entry page ── */
 @media (max-width: 768px) {
   .entry-back { padding: 100px 24px 0 !important; }

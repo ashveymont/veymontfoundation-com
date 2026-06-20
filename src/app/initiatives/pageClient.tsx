@@ -128,8 +128,8 @@ export default function InitiativesClient() {
               margin:     '0 auto 32px',
             }}
           >
-            Every initiative begins with a single act.<br />
-            Every act begins with the decision to show up.
+            Every initiative here exists because something was given to us first.<br />
+            This is simply what we chose to do with it.
           </p>
         </RevealOnScroll>
 

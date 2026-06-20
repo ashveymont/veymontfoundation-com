@@ -8,7 +8,7 @@ const principles = [
   {
     numeral: 'I',
     title: 'We do not accept donations.',
-    body: "Every initiative undertaken by the Foundation is funded privately — through the commercial success of businesses founded and operated by Ashan Veymont. This is not a limitation. It is a choice. The Foundation's independence from public fundraising means it answers to no donor, no campaign, and no external pressure. It exists solely to serve.",
+    body: "Every initiative undertaken by the Foundation is funded privately — through the commercial success of businesses founded and operated by Ashan Veymont. This is not a limitation. It is a choice. The Foundation's independence from public fundraising means it answers to no donor, no campaign, and no external pressure. It exists solely to serve. Every contribution the Foundation makes is, in the most literal sense, gratitude in motion — not generosity performed for an audience, but a debt being repaid forward.",
   },
   {
     numeral: 'II',

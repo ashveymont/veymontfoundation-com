@@ -252,7 +252,7 @@ export default function ImpactClient() {
               textAlign:  'center',
             }}
           >
-            &ldquo;We are grateful to serve. We are not congratulating ourselves for it. These numbers represent the beginning — and the beginning is exactly what it should be: small, sincere, and sustained.&rdquo;
+            &ldquo;These numbers exist because we were given far more than we ever earned, and this is what we have chosen to do with that. We are not congratulating ourselves. We are simply keeping a promise.&rdquo;
           </p>
         </RevealOnScroll>
       </div>

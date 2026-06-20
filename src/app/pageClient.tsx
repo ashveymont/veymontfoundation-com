@@ -209,13 +209,28 @@ function PhilosophySection() {
               lineHeight: 1.9,
               color: '#2C2C2C',
               opacity: 0.85,
-              marginBottom: '36px',
+              marginBottom: '24px',
             }}
           >
             Access to nourishment, education, and healthcare are not luxuries. They are the
             conditions under which a human being can become who they are meant to be. The Foundation
             exists to extend these conditions to those who need them — quietly, consistently, and
             without condition.
+          </p>
+          <p
+            style={{
+              fontFamily: "'Inter', 'Helvetica Neue', sans-serif",
+              fontWeight: 300,
+              fontSize: '16px',
+              lineHeight: 1.9,
+              color: '#2C2C2C',
+              opacity: 0.85,
+              marginBottom: '36px',
+            }}
+          >
+            This is the idea the Foundation returns to, again and again: I was blessed. Therefore I
+            help. Not as an obligation imposed from outside, but as the only honest response to
+            having received more than was ever earned.
           </p>
           <Link href="/mission" className="text-link">
             Read our mission
@@ -783,6 +798,36 @@ function ClosingSection() {
 
 // ─── Page ────────────────────────────────────────────────────────────────────
 
+function LetterTeaserSection() {
+  return (
+    <section
+      style={{ padding: '60px 60px', textAlign: 'center', background: 'var(--mist)' }}
+      className="letter-teaser"
+    >
+      <RevealOnScroll>
+        <div style={{ marginBottom: '16px' }}>
+          <VMonogram size={18} color="var(--clay)" opacity={0.3} />
+        </div>
+        <p
+          style={{
+            fontFamily:   "'Cormorant Garamond', Georgia, serif",
+            fontWeight:   300,
+            fontStyle:    'italic',
+            fontSize:     'clamp(18px, 2vw, 24px)',
+            color:        'var(--forest)',
+            marginBottom: '16px',
+          }}
+        >
+          &ldquo;Thank you for reading this far. I mean that.&rdquo;
+        </p>
+        <Link href="/letter" className="text-link" style={{ justifyContent: 'center' }}>
+          Read the founder&rsquo;s letter
+        </Link>
+      </RevealOnScroll>
+    </section>
+  )
+}
+
 function SectionMark() {
   return (
     <div
@@ -802,6 +847,7 @@ export default function HomeClient() {
       <SectionMark />
       <PillarsSection />
       <FounderStripSection />
+      <LetterTeaserSection />
       <ImpactNumbersSection />
       <VisionSection />
       <SectionMark />

@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import { motion } from 'framer-motion'
 import RevealOnScroll from '@/components/motion/RevealOnScroll'
 import FounderImages from '@/components/founder/FounderImages'
@@ -9,7 +10,7 @@ const values = [
   {
     word: 'Gratitude',
     description:
-      'Not as a feeling to be expressed, but as a direction to be lived. Gratitude asks you to give forward what you have been given.',
+      'I was blessed. Therefore I help. This is not a slogan — it is the most literal description of why any of this exists. Gratitude, lived honestly, leaves no other option.',
   },
   {
     word: 'Dignity',
@@ -306,6 +307,32 @@ export default function FounderClient() {
             </RevealOnScroll>
           ))}
         </div>
+      </section>
+
+      {/* ── Letter CTA ── */}
+      <section
+        style={{ padding: '100px 60px', textAlign: 'center', background: 'var(--white)' }}
+        className="founder-letter-close"
+      >
+        <RevealOnScroll>
+          <p
+            style={{
+              fontFamily:   "'Cormorant Garamond', Georgia, serif",
+              fontWeight:   300,
+              fontStyle:    'italic',
+              fontSize:     'clamp(22px, 2.8vw, 34px)',
+              color:        'var(--forest)',
+              lineHeight:   1.4,
+              maxWidth:     '600px',
+              margin:       '0 auto 32px',
+            }}
+          >
+            Everything above is the story. What follows is the reason, in his own words.
+          </p>
+          <Link href="/letter" className="text-link" style={{ justifyContent: 'center' }}>
+            Read the founder&rsquo;s letter
+          </Link>
+        </RevealOnScroll>
       </section>
 
     </>

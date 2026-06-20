@@ -8,6 +8,7 @@ const navLinks = [
   { label: 'Founder',     href: '/founder'     },
   { label: 'Impact',      href: '/impact'      },
   { label: 'Journal',     href: '/journal'     },
+  { label: 'Letter',      href: '/letter'      },
 ]
 
 export default function Footer() {
