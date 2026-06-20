@@ -221,10 +221,16 @@ h1, h2, h3, h4 {
   .fullscreen-quote--journal     { padding: 48px 20px !important; }
 }
 
-/* ── Responsive: founder images ── */
+/* ── Responsive: founder images — 1-then-2 mobile layout ── */
 @media (max-width: 768px) {
-  .founder-images-grid { grid-template-columns: 1fr !important; }
-  .founder-image-wrap  { max-height: 360px !important; }
+  .founder-images-grid        { grid-template-columns: 1fr !important; gap: 12px !important; }
+  .founder-images-large       { aspect-ratio: 4/3 !important; }
+  .founder-images-pair        { flex-direction: row !important; gap: 12px !important; }
+  .founder-images-pair > div  { aspect-ratio: 1/1 !important; }
+}
+@media (max-width: 480px) {
+  .founder-images-grid  { gap: 10px !important; }
+  .founder-images-pair  { gap: 10px !important; }
 }
 
 /* ── Legacy page ── */

@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 import PaperTexture from '@/components/brand/PaperTexture'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://veymontfoundation.org'),
+  metadataBase: new URL('https://veymontfoundation.com'),
 
   title: {
     default:  'The Veymont Foundation',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     type:        'website',
     locale:      'en_US',
-    url:         'https://veymontfoundation.org',
+    url:         'https://veymontfoundation.com',
     siteName:    'The Veymont Foundation',
     title:       'The Veymont Foundation',
     description: 'What is given to us should be given forward.',

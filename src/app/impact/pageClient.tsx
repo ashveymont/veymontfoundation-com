@@ -10,7 +10,7 @@ import { impactStories } from '@/data/impact-stories'
 
 const stats = [
   {
-    figure:      '500',
+    figure:      '7,200',
     sup:         '+',
     label:       'Meals Distributed',
     description: 'Freshly prepared biryani meals and clean water distributed directly to homeless and underprivileged individuals. Each meal distributed personally by the founder.',
