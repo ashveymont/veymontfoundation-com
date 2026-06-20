@@ -32,13 +32,13 @@ export default function FounderImages() {
         {images.map((img) => (
           <div
             key={img.src}
+            className="archival-image founder-image-wrap"
             style={{
               position:    'relative',
               aspectRatio: '3/4',
               maxHeight:   '480px',
               overflow:    'hidden',
             }}
-            className="founder-image-wrap"
           >
             <Image
               src={img.src}
@@ -47,19 +47,9 @@ export default function FounderImages() {
               priority={false}
               sizes="(max-width: 768px) 100vw, 320px"
               style={{
-                objectFit:     'cover',
+                objectFit:      'cover',
                 objectPosition: 'center',
-                borderRadius:  0,
-              }}
-            />
-            <div
-              aria-hidden
-              style={{
-                position:      'absolute',
-                inset:         0,
-                background:    'rgba(166,90,58,0.08)',
-                mixBlendMode:  'multiply',
-                pointerEvents: 'none',
+                borderRadius:   0,
               }}
             />
           </div>

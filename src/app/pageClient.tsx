@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { motion } from 'framer-motion'
 import RevealOnScroll from '@/components/motion/RevealOnScroll'
 import { journalEntries } from '@/data/journal'
+import VMonogram from '@/components/brand/VMonogram'
 
 // ─── Hero ────────────────────────────────────────────────────────────────────
 
@@ -18,6 +19,7 @@ function HeroSection() {
         alignItems: 'center',
         justifyContent: 'center',
       }}
+      className="texture-dark-zone"
     >
       {/* Gradient overlay */}
       <div
@@ -145,7 +147,7 @@ function HeroSection() {
 
 function PhilosophySection() {
   return (
-    <section style={{ background: '#F6F2EA', padding: '140px 60px' }}>
+    <section style={{ background: '#F6F2EA', padding: '160px 60px' }}>
       <div
         style={{
           maxWidth: '1100px',
@@ -250,7 +252,7 @@ const pillars = [
 
 function PillarsSection() {
   return (
-    <section style={{ background: '#24342A', padding: '120px 60px' }}>
+    <section style={{ background: '#24342A', padding: '120px 60px' }} className="texture-dark-zone">
       {/* Header */}
       <RevealOnScroll>
         <div style={{ textAlign: 'center', marginBottom: '80px' }}>
@@ -389,9 +391,23 @@ function FounderStripSection() {
             view these as personal accomplishments. He views them as gifts — and the Foundation as a
             way of giving them forward.
           </p>
-          <Link href="/founder" className="text-link">
-            Read his story
-          </Link>
+          <div style={{ position: 'relative', display: 'inline-block' }}>
+            <Link href="/founder" className="text-link">
+              Read his story
+            </Link>
+            <span
+              className="margin-note"
+              style={{
+                position: 'absolute',
+                top:      '-28px',
+                right:    '-40px',
+                fontSize: '16px',
+              }}
+              aria-hidden="true"
+            >
+              in his words
+            </span>
+          </div>
         </RevealOnScroll>
       </div>
 
@@ -606,7 +622,7 @@ const previewEntries = [...journalEntries]
 
 function JournalPreviewSection() {
   return (
-    <section style={{ background: '#171717', padding: '120px 60px' }}>
+    <section style={{ background: '#171717', padding: '120px 60px' }} className="texture-dark-zone">
       <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
         {/* Header */}
         <div
@@ -708,7 +724,7 @@ function JournalPreviewSection() {
 
 function ClosingSection() {
   return (
-    <section style={{ background: '#F6F2EA', padding: '180px 60px' }}>
+    <section style={{ background: '#F6F2EA', padding: '200px 60px' }}>
       <div
         style={{
           maxWidth: '700px',
@@ -717,16 +733,11 @@ function ClosingSection() {
         }}
         className="closing-section"
       >
-        {/* Vertical rule */}
+        {/* Monogram mark replacing gradient rule */}
         <RevealOnScroll>
-          <div
-            style={{
-              width: '1px',
-              height: '80px',
-              background: 'linear-gradient(to bottom, transparent, #A65A3A, transparent)',
-              margin: '0 auto 60px',
-            }}
-          />
+          <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '60px' }}>
+            <VMonogram size={18} color="var(--clay)" opacity={0.2} />
+          </div>
         </RevealOnScroll>
 
         {/* Blockquote */}
@@ -772,15 +783,28 @@ function ClosingSection() {
 
 // ─── Page ────────────────────────────────────────────────────────────────────
 
+function SectionMark() {
+  return (
+    <div
+      aria-hidden="true"
+      style={{ display: 'flex', justifyContent: 'center', padding: '0' }}
+    >
+      <VMonogram size={20} color="var(--clay)" opacity={0.12} />
+    </div>
+  )
+}
+
 export default function HomeClient() {
   return (
     <>
       <HeroSection />
       <PhilosophySection />
+      <SectionMark />
       <PillarsSection />
       <FounderStripSection />
       <ImpactNumbersSection />
       <VisionSection />
+      <SectionMark />
       <JournalPreviewSection />
       <ClosingSection />
     </>

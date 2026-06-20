@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import RevealOnScroll from '@/components/motion/RevealOnScroll'
+import VMonogram from '@/components/brand/VMonogram'
 
 const principles = [
   {
@@ -96,7 +97,7 @@ export default function MissionClient() {
                 fontSize: 'clamp(22px, 2.5vw, 32px)',
                 color: '#24342A',
                 lineHeight: 1.5,
-                marginBottom: '48px',
+                marginBottom: '64px',
               }}
             >
               &ldquo;The Veymont Foundation exists to improve human dignity through nourishment,
@@ -190,14 +191,9 @@ export default function MissionClient() {
       <section style={{ padding: '100px 60px 140px' }} className="mission-closing">
         <div style={{ maxWidth: '700px', margin: '0 auto', textAlign: 'center' }}>
           <RevealOnScroll>
-            <div
-              style={{
-                width: '1px',
-                height: '80px',
-                background: 'linear-gradient(to bottom, transparent, #A65A3A, transparent)',
-                margin: '0 auto 60px',
-              }}
-            />
+            <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '60px' }}>
+              <VMonogram size={18} color="var(--clay)" opacity={0.2} />
+            </div>
           </RevealOnScroll>
 
           <RevealOnScroll delay={0.15}>

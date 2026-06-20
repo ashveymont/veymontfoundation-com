@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import RevealOnScroll from '@/components/motion/RevealOnScroll'
 import FounderImages from '@/components/founder/FounderImages'
+import VMonogram from '@/components/brand/VMonogram'
 
 const values = [
   {
@@ -182,12 +183,16 @@ export default function FounderClient() {
 
           {/* Pull quote */}
           <RevealOnScroll>
+            <div style={{ position: 'relative', margin: '60px 0' }}>
+              <div style={{ position: 'absolute', top: '16px', left: '16px' }}>
+                <VMonogram size={18} color="var(--clay)" opacity={0.2} />
+              </div>
             <blockquote
               style={{
                 background: '#EDE8DF',
                 borderLeft: '3px solid #A65A3A',
-                padding: '48px 60px',
-                margin: '60px 0',
+                padding: '64px 72px',
+                margin: 0,
                 fontFamily: "'Cormorant Garamond', Georgia, serif",
                 fontWeight: 300,
                 fontStyle: 'italic',
@@ -202,6 +207,7 @@ export default function FounderClient() {
               to places in my city where people were living without the things I had always taken for
               granted. I wanted to sit with that. To feel it. And then to do something about it.&rdquo;
             </blockquote>
+            </div>
           </RevealOnScroll>
 
           {/* Photo grid */}

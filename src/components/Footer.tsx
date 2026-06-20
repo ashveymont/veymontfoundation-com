@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import VMonogram from '@/components/brand/VMonogram'
 
 const navLinks = [
   { label: 'Home',        href: '/'           },
@@ -20,14 +21,19 @@ export default function Footer() {
         >
           {/* Brand */}
           <div>
+            <VMonogram
+              size={64}
+              color="rgba(246,242,234,0.15)"
+              className="footer-watermark"
+            />
             <p
-              className="font-display font-light text-[22px] mb-4 tracking-[0.05em]"
-              style={{ color: 'var(--white)' }}
+              className="font-display font-light text-[22px] tracking-[0.05em]"
+              style={{ color: 'var(--white)', marginTop: '-16px' }}
             >
               The Veymont Foundation
             </p>
             <p
-              className="font-body font-light text-[13px] leading-relaxed"
+              className="font-body font-light text-[13px] leading-relaxed mt-4"
               style={{ color: 'rgba(246,242,234,0.4)', maxWidth: '320px' }}
             >
               A privately funded humanitarian foundation improving human dignity through

@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
+import VMonogram from '@/components/brand/VMonogram'
 
 const navLinks = [
   { label: 'Home',        href: '/'            },
@@ -48,10 +49,15 @@ export default function Nav() {
       >
         <Link
           href="/"
-          className="font-display font-light text-[15px] tracking-[0.25em] uppercase no-underline"
-          style={{ color: 'var(--obsidian)' }}
+          style={{ display: 'flex', alignItems: 'center', gap: '10px', textDecoration: 'none' }}
         >
-          The Veymont Foundation
+          <VMonogram size={14} color="var(--copper)" opacity={0.6} />
+          <span
+            className="font-display font-light text-[15px] tracking-[0.25em] uppercase"
+            style={{ color: 'var(--obsidian)' }}
+          >
+            The Veymont Foundation
+          </span>
         </Link>
 
         <ul className="hidden md:flex items-center gap-10 list-none">

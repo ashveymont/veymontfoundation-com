@@ -1,0 +1,22 @@
+.archival-image {
+  filter:
+    sepia(0.08)
+    saturate(0.92)
+    contrast(1.02)
+    brightness(0.99);
+  position: relative;
+}
+
+.archival-image::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(166, 90, 58, 0.04) 0%,
+    transparent 40%,
+    transparent 60%,
+    rgba(36, 52, 42, 0.03) 100%
+  );
+  pointer-events: none;
+}

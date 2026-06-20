@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
+import PaperTexture from '@/components/brand/PaperTexture'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://veymontfoundation.org'),
@@ -73,6 +74,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <PaperTexture />
         <Nav />
         <main>{children}</main>
         <Footer />

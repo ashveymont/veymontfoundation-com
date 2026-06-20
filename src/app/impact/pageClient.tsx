@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import RevealOnScroll from '@/components/motion/RevealOnScroll'
 import RoadmapItem from '@/components/impact/RoadmapItem'
+import VMonogram from '@/components/brand/VMonogram'
 
 const stats = [
   {
@@ -235,6 +236,9 @@ export default function ImpactClient() {
       {/* ── Pull note — full width ── */}
       <div style={{ background: '#EDE8DF', padding: '60px' }} className="impact-pull">
         <RevealOnScroll>
+          <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '24px' }}>
+            <VMonogram size={18} color="var(--clay)" opacity={0.2} />
+          </div>
           <p
             style={{
               fontFamily: "'Cormorant Garamond', Georgia, serif",

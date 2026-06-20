@@ -28,9 +28,16 @@ const config: Config = {
         widest:  '0.35em',
       },
       maxWidth: {
-        prose:  '760px',
+        prose:  '720px',
         wide:   '1100px',
         full:   '1200px',
+        letter: '640px',
+      },
+      spacing: {
+        'section-sm': '100px',
+        'section-md': '140px',
+        'section-lg': '180px',
+        'section-xl': '220px',
       },
       transitionTimingFunction: {
         elegant: 'cubic-bezier(0.25, 0.1, 0.25, 1)',
