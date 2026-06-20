@@ -155,7 +155,7 @@ What I have chosen, for now, is to weight toward service even where it is less e
 
 I do not think charity and service are opposites. I think service is what charity becomes when you stay long enough to mean it.`,
     published:   true,
-    cornerstone: true,
+    cornerstone: false,
     created_at:  '2025-08-01T00:00:00Z',
   },
   {
@@ -243,5 +243,138 @@ That is why I believe in humanity, as a practical matter and not a sentimental o
     published:   true,
     cornerstone: false,
     created_at:  '2025-12-01T00:00:00Z',
+  },
+  {
+    id:          '12',
+    slug:        'what-my-mother-taught-me-about-giving',
+    title:       'What My Mother Taught Me About Giving',
+    category:    'Reflection',
+    excerpt:     "She never once used the word generosity. I don't think she thought of what she did as generosity. I think she thought of it as just what you do when someone needs something and you have it.",
+    body:        `She never once used the word generosity. I don't think she thought of what she did as generosity. I think she thought of it as just what you do when someone needs something and you have it.
+
+I grew up watching her give things away in a manner so unceremonious that I didn't register it as anything notable until I was much older. Extra food packed for a neighbor without being asked. A child's school fees quietly covered for a family she barely knew, in a way designed specifically so they would never find out it was her. She did not perform this. She did not mention it afterward. If you had asked her about it directly, I think she would have been confused about why you were asking — to her, it wasn't a decision. It was just Tuesday.
+
+I used to think this was simply her temperament, something she was born with that I either had or didn't. I have come to think it was something closer to a habit, built through repetition so early and so consistently that it stopped requiring thought. She gave the way some people clear their throat — automatically, without weighing it first.
+
+I am not naturally like this. I want to be honest about that. My instinct toward generosity has, for most of my life, required a decision — a moment where I notice an opportunity and choose to act on it. Hers required no decision at all, because the noticing and the acting had fused into a single motion somewhere before I was old enough to witness it happening.
+
+What I took from watching her, more than any specific lesson, was a kind of proof of concept. I had direct evidence, for my entire childhood, that this was possible — that a person could move through the world this way and not find it exhausting or remarkable, simply normal. I think that proof has done more for the Foundation than any principle I could articulate. I am not yet at the place she was. But I know the place exists, because I watched someone live there for years without ever once announcing it.`,
+    published:   true,
+    cornerstone: false,
+    created_at:  '2026-01-01T00:00:00Z',
+  },
+  {
+    id:          '13',
+    slug:        'why-a-meal-is-never-just-a-meal',
+    title:       'Why A Meal Is Never Just A Meal',
+    category:    'Nourishment',
+    excerpt:     'If you reduce it to its components, a meal is calories, protein, the basic chemistry required to keep a body functioning. I have handed out enough of them now to know that this description, while technically accurate, misses almost everything that actually happens.',
+    body:        `If you reduce it to its components, a meal is calories, protein, the basic chemistry required to keep a body functioning. I have handed out enough of them now to know that this description, while technically accurate, misses almost everything that actually happens.
+
+A meal handed to someone is also, simultaneously, a series of other things that have nothing to do with nutrition. It is an acknowledgment that you exist. It is a small, temporary suspension of whatever calculation that person has been running about how to get through the next several hours. It is, often, the first thing that day that was given to them rather than something they had to negotiate, ask for, or justify needing.
+
+I have watched people's posture change while eating — not dramatically, just a slight loosening, the kind that happens when a body briefly stops bracing for something. I don't think that loosening is about the food itself. I think it's about what the food represents in that specific moment: a few minutes where nothing else is required of them.
+
+I used to think the goal of distributing meals was to address hunger. I still think that's true, but I no longer think it's the whole truth. Hunger is the visible problem, the one you can point to and measure. But I think what actually gets addressed, underneath the hunger, is something closer to isolation — the particular loneliness of being a person whose needs are routinely treated as inconvenient or invisible by the systems around them.
+
+A meal cannot fix that condition. One meal changes nothing structural about anyone's circumstances. But it can, for the length of time it takes to eat it, interrupt the condition. I have come to believe that interruption matters more than its brief duration would suggest. People remember being seen far longer than they remember being fed.`,
+    published:   true,
+    cornerstone: false,
+    created_at:  '2026-02-01T00:00:00Z',
+  },
+  {
+    id:          '14',
+    slug:        'success-is-not-what-i-thought-it-was',
+    title:       'Success Is Not What I Thought It Was',
+    category:    'Reflection',
+    excerpt:     'For most of my twenties I had a fairly clear picture of what success would feel like once I arrived at it. I have now arrived at several of the specific markers I once used to define it. The feeling did not match the picture.',
+    body:        `For most of my twenties I had a fairly clear picture of what success would feel like once I arrived at it. I have now arrived at several of the specific markers I once used to define it. The feeling did not match the picture.
+
+I want to be precise about what I mean, because this kind of statement can sound like false modesty, and it isn't that. The achievements were real. The numbers were real. I am not describing some hollow facade that collapsed on closer inspection. I am describing something stranger: the achievements were exactly as real as I expected, and the satisfaction was much smaller than I expected, and I spent a long time confused about the gap between those two facts.
+
+My early picture of success had an implicit promise built into it, one I never examined closely enough to notice I was relying on: that enough achievement would eventually produce a settled feeling, a sense of having arrived somewhere stable, where the striving could finally stop. What I found instead was that each achievement simply relocated the goalpost slightly further out, and the striving did not stop, it just changed its target.
+
+I do not think this is a unique discovery. I think it is one of the more common realizations successful people eventually have, late enough that they've already spent years organizing their life around the original, mistaken picture. What I would tell my younger self, if the conversation were possible, is not that success is meaningless — it isn't — but that it was never going to be the thing that answered the question I was actually asking. I was asking, underneath everything, whether my life mattered to anyone besides me. Success cannot answer that question. It was never built to.
+
+What has come closer to answering it, unexpectedly, is the Foundation — not because it is more impressive than the businesses, it is far smaller and far less impressive by any conventional measure, but because it is the first thing I have built where the value is measured in someone else's evening rather than my own balance sheet. I did not redefine success on purpose. I just noticed, eventually, that the old definition had quietly stopped being the thing I was actually chasing.`,
+    published:   true,
+    cornerstone: false,
+    created_at:  '2026-03-01T00:00:00Z',
+  },
+  {
+    id:          '15',
+    slug:        'the-stranger-i-never-forgot',
+    title:       'The Stranger I Never Forgot',
+    category:    'Story',
+    excerpt:     'I do not know his name. I met him for perhaps four minutes, years ago, and I have thought about him more times than I can count since.',
+    body:        `I do not know his name. I met him for perhaps four minutes, years ago, and I have thought about him more times than I can count since.
+
+It was early on, before any of this had a name or a structure, when I was still doing this informally, alone, without anyone else involved. I had brought food to an area I had visited a few times before. Most people took the food and moved on, which was completely appropriate — they had no obligation to make conversation with me, and I never expected it. This one man stayed.
+
+He asked me why I was doing this. I gave some version of an honest answer, something about gratitude, about having had more than I needed. He listened, and then he said something I have never been able to shake, paraphrased now because I don't trust my memory to have preserved his exact words after this many years, but close to this: that most people who help only see the helping. They never see the person standing in front of them as someone with a life before this moment and a life after it, just as someone receiving something. He said he didn't think I was doing that, which was why he'd stopped to talk. Then he thanked me, in a way that felt less like gratitude for the meal and more like gratitude for the four minutes themselves, and he left, and I never saw him again.
+
+I do not know what happened to him. I do not know if he is still alive. I have gone back to that same area more times than I could count, hoping without much expectation that I would run into him again, and I never have.
+
+What I took from those four minutes was not really about food distribution at all. It was a kind of correction, delivered by exactly the person most qualified to deliver it, about what the actual point of any of this is supposed to be. Not the meal. Not even the help, exactly. The four minutes. The being seen as a whole person rather than a recipient. I think about him every time I am tempted to move quickly through a distribution, treating it as a task to complete rather than a series of individual encounters that each deserve their own four minutes.`,
+    published:   true,
+    cornerstone: false,
+    created_at:  '2026-04-01T00:00:00Z',
+  },
+  {
+    id:          '16',
+    slug:        'what-happens-when-nobody-is-watching',
+    title:       'What Happens When Nobody Is Watching',
+    category:    'Philosophy',
+    excerpt:     "I think you can learn more about a person's actual character from the version of them that exists when no one is documenting it than from almost anything else available to observe.",
+    body:        `I think you can learn more about a person's actual character from the version of them that exists when no one is documenting it than from almost anything else available to observe.
+
+This has become something close to a private test I apply, mostly to myself. Would I still do this if there were no possibility anyone would ever know I had done it? Would I still show up, distribute the meals, have the conversation, if there were no website, no journal, no record at all — if the entire thing existed only in the moment it happened and then vanished from memory the second it was over?
+
+I want to be able to answer yes to that question. I am not certain I always could have, earlier in my life, before I had spent enough time actually doing this work to know what it felt like from the inside. But somewhere in the repetition, doing it the same way week after week regardless of whether anyone was tracking it, the question stopped being theoretical and started being something I had actual evidence for. I have shown up on plenty of days when documenting it would have required more effort than it was worth, and I showed up anyway, because by that point the showing up had become the point, not the record of it.
+
+I think this matters more broadly than just as a personal test. I think an organization's actual values are most visible in whatever it does when no one is measuring it — the version of the work that never makes it into a report, an essay, a statistic. If I'm honest, most of what the Foundation actually does will never appear anywhere on this website, not because we're hiding it, but because most of it isn't the kind of thing that translates into content. A returned visit. A name remembered. A small kindness extended without ceremony. These things resist documentation almost by their nature.
+
+I have started to think that's correct, actually — that the most meaningful version of this work might be the version that never gets written about at all, and that the writing, including this essay, is at best a faint shadow of the actual thing.`,
+    published:   true,
+    cornerstone: false,
+    created_at:  '2026-05-01T00:00:00Z',
+  },
+  {
+    id:          '17',
+    slug:        'the-blessings-we-mistake-for-normal',
+    title:       'The Blessings We Mistake For Normal',
+    category:    'Reflection',
+    excerpt:     "There is a particular kind of privilege that is almost impossible to notice from the inside, because it doesn't feel like privilege. It feels like normal. It feels like how things simply are.",
+    body:        `There is a particular kind of privilege that is almost impossible to notice from the inside, because it doesn't feel like privilege. It feels like normal. It feels like how things simply are.
+
+I did not grow up thinking of food, school, or healthcare as blessings. I grew up thinking of them as the baseline — the floor beneath which life does not fall, the assumed conditions against which everything else gets measured. It took years of being around people for whom that floor does not exist before I understood that I had been mistaking a gift for a given.
+
+This is, I think, the central difficulty with gratitude as most people attempt to practice it. You cannot feel grateful for something you don't recognize as having been given to you in the first place. Gratitude requires first noticing that something could have been otherwise — that the floor you're standing on was not, in fact, guaranteed to anyone, including you. Most blessings hide from us specifically by never failing to show up. Their reliability is what disguises them.
+
+I have started keeping a kind of inventory, mostly mental, of the things in my life that I once assumed were simply how things are. Having never had to choose between rent and a doctor's visit. Having never sat through a class wondering if I'd be allowed to finish the year. Having never watched someone I love struggle to breathe without immediate access to the medication that would fix it. Each one of these, once I actually looked at it directly, turned out to be a blessing I had been quietly mistaking for a baseline for most of my life.
+
+I do not think this realization is supposed to produce guilt. I have said this before and I want to say it again, because I think it's easy to slide from this kind of reflection into something heavier and less useful than what it's actually meant to produce. The realization is supposed to produce attention — a sharper awareness of what you actually have, which is the only precondition for deciding, honestly, what you intend to do with it.`,
+    published:   true,
+    cornerstone: true,
+    created_at:  '2026-06-01T00:00:00Z',
+  },
+  {
+    id:          '18',
+    slug:        'if-i-only-help-one-person',
+    title:       'If I Only Help One Person',
+    category:    'Reflection',
+    excerpt:     "I get asked, occasionally, whether the scale of this work bothers me. Whether it feels small, relative to the size of the problems it's responding to. I understand the question. I no longer think it's the right one.",
+    body:        `I get asked, occasionally, whether the scale of this work bothers me. Whether it feels small, relative to the size of the problems it's responding to. I understand the question. I no longer think it's the right one.
+
+There was a period, early on, when scale genuinely did bother me. I would do the arithmetic in my head — the number of people in genuine need, set against the number we could realistically reach, and the resulting fraction was demoralizing enough that I sometimes wondered whether any of this was worth doing at all. If the math doesn't move the needle, what is the actual point of the effort?
+
+What changed my mind was not a better argument. It was a specific person, a specific evening, a specific meal that mattered enormously to exactly one human being and to no one else in the entire world. I remember thinking, afterward, that if I had spent that evening doing the arithmetic instead of doing the work, that one evening would not have happened for that one person. The math would have been more impressive. The actual difference made would have been smaller.
+
+I have come to believe that the question "does this matter at scale" and the question "does this matter to this person" are not actually the same question, and that conflating them quietly corrodes the will to act at all. If you wait until you can help everyone, you will help no one, because the threshold you've set yourself is not achievable by any single person, foundation, or government that has ever existed. Every meaningful effort in history, at the moment it began, was statistically negligible relative to the scope of what it was responding to. That negligibility was never a reason not to begin. It was simply the size of a beginning.
+
+If I only ever help one person — truly, deeply, completely, in a way that meaningfully changes that one person's evening, week, or life — I no longer think that would make this work a failure. I think it would make it exactly what it was supposed to be in the first place, before I ever started measuring it against a scale it was never built to satisfy.`,
+    published:   true,
+    cornerstone: true,
+    created_at:  '2026-06-15T00:00:00Z',
   },
 ]
