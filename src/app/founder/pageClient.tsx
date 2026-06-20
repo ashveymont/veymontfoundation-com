@@ -15,7 +15,7 @@ const values = [
   {
     word: 'Dignity',
     description:
-      'Every person — regardless of circumstance — deserves to be treated with care and respect. This is non-negotiable.',
+      'You deserve to be treated with care and respect, regardless of circumstance. So does everyone else. This is non-negotiable.',
   },
   {
     word: 'Consistency',

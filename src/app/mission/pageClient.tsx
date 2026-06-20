@@ -8,7 +8,7 @@ const principles = [
   {
     numeral: 'I',
     title: 'We do not accept donations.',
-    body: "Every initiative undertaken by the Foundation is funded privately — through the commercial success of businesses founded and operated by Ashan Veymont. This is not a limitation. It is a choice. The Foundation's independence from public fundraising means it answers to no donor, no campaign, and no external pressure. It exists solely to serve. Every contribution the Foundation makes is, in the most literal sense, gratitude in motion — not generosity performed for an audience, but a debt being repaid forward.",
+    body: "Every initiative undertaken here is funded privately — through the commercial success of businesses founded and operated by Ashan Veymont. This is not a limitation. It is a choice. Independence from public fundraising means answering to no donor, no campaign, and no external pressure. It exists solely to serve. Every contribution this Foundation makes is, in the most literal sense, gratitude in motion — not generosity performed for an audience, but a debt being repaid forward.",
   },
   {
     numeral: 'II',
@@ -23,7 +23,7 @@ const principles = [
   {
     numeral: 'IV',
     title: 'We think in generations, not campaigns.',
-    body: 'The Veymont Foundation is not built to respond to a moment. It is built to outlast one. Every decision made today — in brand, in structure, in the way it serves — is made with the intention that this Foundation should still be doing meaningful work a century from now.',
+    body: 'The Veymont Foundation is not built to respond to a moment. It is built to outlast one. Every decision made today — in brand, in structure, in the way it serves — is made with the intention that this should still be meaningful work a century from now.',
   },
 ]
 
@@ -102,6 +102,22 @@ export default function MissionClient() {
             >
               &ldquo;The Veymont Foundation exists to improve human dignity through nourishment,
               education, and healthcare — not out of obligation, but out of gratitude.&rdquo;
+            </p>
+          </RevealOnScroll>
+
+          {/* Thesis line */}
+          <RevealOnScroll>
+            <p
+              style={{
+                fontFamily:    "'Inter', 'Helvetica Neue', sans-serif",
+                fontWeight:    400,
+                fontSize:      '15px',
+                letterSpacing: '0.02em',
+                color:         'var(--clay)',
+                marginBottom:  '48px',
+              }}
+            >
+              The blessings we receive become meaningful when they are shared.
             </p>
           </RevealOnScroll>
 

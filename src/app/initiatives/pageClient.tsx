@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { motion } from 'framer-motion'
 import RevealOnScroll from '@/components/motion/RevealOnScroll'
 import InitiativeSection from '@/components/initiatives/InitiativeSection'
+import VoiceNote from '@/components/founder/VoiceNote'
 import { nourishment, education, healthcare } from '@/data/initiatives'
 
 function InitiativesHero() {
@@ -56,7 +57,7 @@ function InitiativesHero() {
         </motion.p>
 
         <h1 style={{ margin: 0 }}>
-          {['Three pillars.', 'One purpose.'].map((line, i) => (
+          {['Three ways of', 'saying thank you.'].map((line, i) => (
             <motion.span
               key={line}
               initial={{ opacity: 0, y: 16 }}
@@ -97,6 +98,8 @@ export default function InitiativesClient() {
       <InitiativesHero />
 
       <InitiativeSection initiative={nourishment} index={1} />
+
+      <VoiceNote text="The Foundation didn't begin when the website launched. It began years ago on a street corner with a packet of biryani." />
 
       {/* ── Full-screen quote pause ── */}
       <section

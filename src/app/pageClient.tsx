@@ -5,6 +5,7 @@ import { motion } from 'framer-motion'
 import RevealOnScroll from '@/components/motion/RevealOnScroll'
 import { journalEntries } from '@/data/journal'
 import VMonogram from '@/components/brand/VMonogram'
+import VoiceNote from '@/components/founder/VoiceNote'
 
 // ─── Hero ────────────────────────────────────────────────────────────────────
 
@@ -846,6 +847,7 @@ export default function HomeClient() {
       <PhilosophySection />
       <SectionMark />
       <PillarsSection />
+      <VoiceNote text="The first time I handed a meal to someone living on the street, I expected gratitude. What I received instead was perspective." />
       <FounderStripSection />
       <LetterTeaserSection />
       <ImpactNumbersSection />

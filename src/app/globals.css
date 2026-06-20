@@ -303,6 +303,12 @@ h1, h2, h3, h4 {
   .entry-hero { padding: 32px 20px 48px !important; }
 }
 
+/* ── Voice Notes ── */
+@media (max-width: 768px) {
+  .voice-note                { margin: 40px auto !important; padding-left: 16px !important; }
+  .voice-note p:last-child   { font-size: 16px !important; }
+}
+
 /* ── Mobile: home section horizontal padding ── */
 @media (max-width: 768px) {
   .home-section { padding-left: 24px !important; padding-right: 24px !important; }

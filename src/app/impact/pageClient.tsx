@@ -6,6 +6,7 @@ import RevealOnScroll from '@/components/motion/RevealOnScroll'
 import RoadmapItem from '@/components/impact/RoadmapItem'
 import VMonogram from '@/components/brand/VMonogram'
 import ImpactStoryCard from '@/components/impact/ImpactStory'
+import VoiceNote from '@/components/founder/VoiceNote'
 import { impactStories } from '@/data/impact-stories'
 
 const stats = [
@@ -234,6 +235,8 @@ export default function ImpactClient() {
             ))}
           </div>
         </div>
+
+        <VoiceNote text="Seven thousand meals is a number. Each one was also an evening. I try to remember that every time I look at the total." />
 
         {/* ── Impact Stories ── */}
         <div style={{ padding: '0 0 80px' }}>

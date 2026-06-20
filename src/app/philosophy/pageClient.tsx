@@ -95,6 +95,20 @@ function PhilosophyIntro() {
             Most organizations form around a problem. This one formed around a debt — and everything
             below is an attempt to explain what that means in practice.
           </p>
+          <p
+            style={{
+              fontFamily: "'Cormorant Garamond', Georgia, serif",
+              fontWeight: 300,
+              fontStyle:  'italic',
+              fontSize:   'clamp(17px, 1.8vw, 21px)',
+              color:      'var(--clay)',
+              marginTop:  '20px',
+              lineHeight: 1.5,
+              textAlign:  'center',
+            }}
+          >
+            The blessings we receive become meaningful when they are shared.
+          </p>
         </RevealOnScroll>
       </div>
     </section>

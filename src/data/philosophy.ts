@@ -7,7 +7,7 @@ export const philosophyEssays: PhilosophyEssay[] = [
     body: [
       "Dignity is not something the Foundation gives to people. It is something every person already has, and the Foundation's only job is to stop getting in its way.",
       "This sounds simple. It is not practiced simply. Most help, however well intended, comes with a quiet condition attached — prove you deserve this, explain how you got here, perform gratitude on request. The Foundation tries to remove the condition entirely. A meal handed over without a form to fill out. A resource provided without a story required first.",
-      "We believe dignity is preserved not by what is given, but by how it is given — and that the how matters as much as the what, every time.",
+      "We believe dignity is preserved not by what is given, but by how it is given — and that the how matters as much as the what, every time. Every person deserves to be seen. Not helped from a distance. Seen.",
     ],
   },
   {
