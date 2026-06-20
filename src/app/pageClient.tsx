@@ -61,7 +61,7 @@ function HeroSection() {
             marginBottom: '36px',
           }}
         >
-          The Veymont Foundation — Est. 2024
+          A private foundation, built on gratitude
         </motion.p>
 
         {/* H1 */}
@@ -99,8 +99,7 @@ function HeroSection() {
             margin: '0 auto 72px',
           }}
         >
-          Privately funded initiatives dedicated to improving human dignity through
-          nourishment, education, and healthcare.
+          Ashan Veymont was given more than he ever earned. This is what he has chosen to do with it.
         </motion.p>
 
         {/* Scroll indicator */}

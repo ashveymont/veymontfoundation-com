@@ -98,7 +98,36 @@ export default function InitiativesClient() {
 
       <InitiativeSection initiative={nourishment} index={1} />
 
-      <SectionRule />
+      {/* ── Full-screen quote pause ── */}
+      <section
+        style={{
+          minHeight:      '70vh',
+          display:        'flex',
+          alignItems:     'center',
+          justifyContent: 'center',
+          background:     'var(--forest)',
+          padding:        '80px 60px',
+        }}
+        className="fullscreen-quote fullscreen-quote--initiatives"
+      >
+        <RevealOnScroll>
+          <p
+            style={{
+              fontFamily: "'Cormorant Garamond', Georgia, serif",
+              fontWeight: 300,
+              fontStyle:  'italic',
+              fontSize:   'clamp(32px, 5.5vw, 64px)',
+              color:      'var(--white)',
+              lineHeight: 1.3,
+              textAlign:  'center',
+              maxWidth:   '900px',
+              margin:     '0 auto',
+            }}
+          >
+            Success answers &ldquo;did I do this well.&rdquo; Service answers &ldquo;did this do anything for someone other than me.&rdquo;
+          </p>
+        </RevealOnScroll>
+      </section>
 
       <InitiativeSection initiative={education} index={2} />
 

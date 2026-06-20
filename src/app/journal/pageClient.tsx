@@ -240,41 +240,77 @@ export default function JournalClient() {
             </section>
           )}
 
-          {/* Archive */}
-          {archiveEntries.length > 0 && (
-            <>
-              <RevealOnScroll>
-                <p
-                  style={{
-                    fontFamily:    "'Inter', 'Helvetica Neue', sans-serif",
-                    fontWeight:    300,
-                    fontSize:      '11px',
-                    letterSpacing: '0.3em',
-                    textTransform: 'uppercase',
-                    color:         'var(--clay)',
-                    marginBottom:  '40px',
-                  }}
-                >
-                  The Archive
-                </p>
-              </RevealOnScroll>
-
-              <div
-                style={{
-                  display:             'grid',
-                  gridTemplateColumns: 'repeat(3, 1fr)',
-                  gap:                 '40px',
-                }}
-                className="journal-card-grid"
-              >
-                {archiveEntries.map((entry, i) => (
-                  <JournalCard key={entry.id} entry={entry} index={i} />
-                ))}
-              </div>
-            </>
-          )}
         </div>
       </section>
+
+      {/* ── Full-screen quote pause ── */}
+      {archiveEntries.length > 0 && (
+        <section
+          style={{
+            minHeight:      '60vh',
+            display:        'flex',
+            alignItems:     'center',
+            justifyContent: 'center',
+            background:     'var(--obsidian)',
+            padding:        '80px 60px',
+          }}
+          className="fullscreen-quote fullscreen-quote--journal"
+        >
+          <RevealOnScroll>
+            <p
+              style={{
+                fontFamily: "'Cormorant Garamond', Georgia, serif",
+                fontWeight: 300,
+                fontStyle:  'italic',
+                fontSize:   'clamp(28px, 5vw, 56px)',
+                color:      'var(--white)',
+                lineHeight: 1.3,
+                textAlign:  'center',
+                maxWidth:   '820px',
+                margin:     '0 auto',
+              }}
+            >
+              The instinct toward kindness runs deeper in most people than their circumstances.
+            </p>
+          </RevealOnScroll>
+        </section>
+      )}
+
+      {/* ── Archive ── */}
+      {archiveEntries.length > 0 && (
+        <section style={{ background: '#F6F2EA', padding: '80px 60px' }} className="journal-archive">
+          <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+            <RevealOnScroll>
+              <p
+                style={{
+                  fontFamily:    "'Inter', 'Helvetica Neue', sans-serif",
+                  fontWeight:    300,
+                  fontSize:      '11px',
+                  letterSpacing: '0.3em',
+                  textTransform: 'uppercase',
+                  color:         'var(--clay)',
+                  marginBottom:  '40px',
+                }}
+              >
+                The Archive
+              </p>
+            </RevealOnScroll>
+
+            <div
+              style={{
+                display:             'grid',
+                gridTemplateColumns: 'repeat(3, 1fr)',
+                gap:                 '40px',
+              }}
+              className="journal-card-grid"
+            >
+              {archiveEntries.map((entry, i) => (
+                <JournalCard key={entry.id} entry={entry} index={i} />
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
     </>
   )
 }
