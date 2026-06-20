@@ -2,13 +2,14 @@ import Link from 'next/link'
 import VMonogram from '@/components/brand/VMonogram'
 
 const navLinks = [
-  { label: 'Home',        href: '/'           },
-  { label: 'Mission',     href: '/mission'     },
+  { label: 'Home',        href: '/'            },
+  { label: 'Philosophy',  href: '/philosophy'  },
   { label: 'Initiatives', href: '/initiatives' },
   { label: 'Founder',     href: '/founder'     },
+  { label: 'Letter',      href: '/letter'      },
   { label: 'Impact',      href: '/impact'      },
   { label: 'Journal',     href: '/journal'     },
-  { label: 'Letter',      href: '/letter'      },
+  { label: 'Mission',     href: '/mission'     },
 ]
 
 export default function Footer() {

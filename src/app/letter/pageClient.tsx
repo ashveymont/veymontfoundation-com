@@ -156,7 +156,7 @@ export default function LetterClient() {
               <Link href="/founder" className="text-link">
                 Read his story
               </Link>
-              <Link href="/mission" className="text-link">
+              <Link href="/philosophy" className="text-link">
                 Our philosophy
               </Link>
             </div>

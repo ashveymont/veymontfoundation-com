@@ -8,7 +8,7 @@ import VMonogram from '@/components/brand/VMonogram'
 
 const navLinks = [
   { label: 'Home',        href: '/'            },
-  { label: 'Mission',     href: '/mission'      },
+  { label: 'Philosophy',  href: '/philosophy'   },
   { label: 'Initiatives', href: '/initiatives'  },
   { label: 'Founder',     href: '/founder'      },
   { label: 'Impact',      href: '/impact'       },

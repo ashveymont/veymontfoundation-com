@@ -9,6 +9,12 @@ export interface JournalEntry {
   created_at: string
 }
 
+export interface PhilosophyEssay {
+  numeral: string
+  title:   string
+  body:    string[]
+}
+
 export interface Initiative {
   numeral: string
   name:    string

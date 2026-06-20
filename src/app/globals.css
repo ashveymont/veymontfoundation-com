@@ -198,6 +198,21 @@ h1, h2, h3, h4 {
   .founder-image-wrap  { max-height: 360px !important; }
 }
 
+/* ── Philosophy page ── */
+@media (max-width: 768px) {
+  .philosophy-hero          { padding: 100px 24px 60px !important; min-height: 45vh !important; }
+  .philosophy-intro         { padding: 60px 24px 40px !important; }
+  .philosophy-essay         { padding: 64px 24px !important; }
+  .philosophy-essay-grid    { grid-template-columns: 1fr !important; gap: 24px !important; direction: ltr !important; }
+  .philosophy-closing       { padding: 100px 24px !important; }
+  .philosophy-closing-links { flex-direction: column !important; gap: 20px !important; align-items: center !important; }
+}
+@media (max-width: 480px) {
+  .philosophy-h1   { font-size: clamp(34px, 9vw, 52px) !important; }
+  .philosophy-para { font-size: 15px !important; }
+  .philosophy-essay { padding: 48px 20px !important; }
+}
+
 /* ── Letter page ── */
 @media (max-width: 768px) {
   .letter-hero { padding: 120px 24px 60px !important; min-height: 40vh !important; }
