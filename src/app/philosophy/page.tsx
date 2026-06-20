@@ -3,7 +3,7 @@ import PhilosophyClient from './pageClient'
 
 export const metadata: Metadata = {
   title:       'Philosophy',
-  description: 'Seven essays on the ideas that form the intellectual and moral foundation of The Veymont Foundation — human dignity, gratitude, service, education, health, responsibility, and legacy.',
+  description: 'Seven essays on human dignity, gratitude, service, education, health, responsibility, and legacy — the beliefs underneath The Veymont Foundation.',
 }
 
 export default function Philosophy() {

@@ -1,5 +1,3 @@
-'use client'
-
 import Link from 'next/link'
 import RevealOnScroll from '@/components/motion/RevealOnScroll'
 import VMonogram from '@/components/brand/VMonogram'
