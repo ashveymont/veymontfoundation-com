@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import VMonogram from '@/components/brand/VMonogram'
 import { JournalEntry } from '@/types'
 
 interface EntryHeroProps {
@@ -21,6 +22,29 @@ export default function EntryHero({ entry }: EntryHeroProps) {
       }}
       className="entry-hero"
     >
+      {entry.cornerstone && (
+        <motion.div
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.15, duration: 0.7, ease: [0.25, 0.1, 0.25, 1] }}
+          style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '16px' }}
+        >
+          <VMonogram size={14} color="var(--copper)" opacity={0.6} />
+          <span
+            style={{
+              fontFamily:    "'Inter', 'Helvetica Neue', sans-serif",
+              fontWeight:    400,
+              fontSize:      '10px',
+              letterSpacing: '0.2em',
+              textTransform: 'uppercase',
+              color:         'var(--copper)',
+            }}
+          >
+            Cornerstone Essay
+          </span>
+        </motion.div>
+      )}
+
       <motion.p
         initial={{ opacity: 0, y: 12 }}
         animate={{ opacity: 1, y: 0 }}

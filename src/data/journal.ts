@@ -18,8 +18,9 @@ The evening I drove out with that pot of biryani, I was not trying to change any
 I still drive myself. I still cook, or arrange for it to be cooked. I still show up in the same places. I have found that consistency is its own form of dignity — it says: this is not a gesture. This is a practice.
 
 The Foundation grew from that practice. Not the other way around.`,
-    published:  true,
-    created_at: '2025-06-01T00:00:00Z',
+    published:   true,
+    cornerstone: true,
+    created_at:  '2025-06-01T00:00:00Z',
   },
   {
     id:        '2',
@@ -40,8 +41,9 @@ It is an imperfect answer. The work is small relative to the need. The resources
 I am not sure that I believe in waiting until you can do something perfectly before doing it at all. I believe in starting. In showing up with what you have. In letting the practice teach you what the theory never could.
 
 That is what gratitude looks like in practice, as far as I can tell. It looks like showing up.`,
-    published:  true,
-    created_at: '2025-05-01T00:00:00Z',
+    published:   true,
+    cornerstone: false,
+    created_at:  '2025-05-01T00:00:00Z',
   },
   {
     id:        '3',
@@ -62,8 +64,9 @@ I made a promise to myself during that period. If I recovered fully, I would do 
 The Foundation's healthcare pillar is that promise kept — or rather, beginning to be kept. It starts with respiratory care, with asthma support, with medication access for those who cannot afford it. It is a small beginning. But promises kept at small scale are still promises kept.
 
 I think about those weeks often. I think they were necessary.`,
-    published:  true,
-    created_at: '2025-03-01T00:00:00Z',
+    published:   true,
+    cornerstone: true,
+    created_at:  '2025-03-01T00:00:00Z',
   },
   {
     id:        '4',
@@ -84,8 +87,9 @@ This is harder than it sounds. Everything I build carries my name. Every decisio
 The test I return to is simple: would this Foundation still make sense, still have purpose, still do meaningful work if I were no longer here? If the answer is yes, we are building the right thing. If the answer is no, we are building the wrong thing.
 
 I want the answer to be yes. That is what I am working toward.`,
-    published:  true,
-    created_at: '2025-02-01T00:00:00Z',
+    published:   true,
+    cornerstone: false,
+    created_at:  '2025-02-01T00:00:00Z',
   },
   {
     id:        '5',
@@ -106,8 +110,9 @@ The Foundation's education work begins with the ordinary. With the things that s
 I do not know yet how large this work will grow. I know that it starts here: with the practical, the immediate, the student who is already in the classroom and simply needs the rest of the equation to catch up.
 
 Potential has no postal code. The resources to develop it should not either.`,
-    published:  true,
-    created_at: '2025-01-01T00:00:00Z',
+    published:   true,
+    cornerstone: false,
+    created_at:  '2025-01-01T00:00:00Z',
   },
   {
     id:        '6',
@@ -128,7 +133,52 @@ I do not always succeed at this. The logistics of distribution, the number of pe
 The long-term vision of the nourishment pillar — community kitchens, open-door spaces, places where anyone can eat — is built around this principle. Not just the food. The experience of receiving it with dignity. The experience of sitting somewhere and being welcomed rather than processed.
 
 That is what I am trying to build toward. It is harder to measure than meals distributed. It matters more.`,
-    published:  true,
-    created_at: '2024-12-01T00:00:00Z',
+    published:   true,
+    cornerstone: false,
+    created_at:  '2024-12-01T00:00:00Z',
+  },
+  {
+    id:          '7',
+    slug:        'the-difference-between-charity-and-service',
+    title:       'The Difference Between Charity And Service',
+    category:    'Philosophy',
+    excerpt:     'Charity is a transaction. Service is a relationship. I did not understand how different these two things actually are until I had been doing this long enough to feel the difference in my own body.',
+    body:        `Charity is a transaction. Service is a relationship. I did not understand how different these two things actually are until I had been doing this long enough to feel the difference in my own body.
+
+A transaction has a clean shape. Something is given, something is received, and the exchange ends. It can happen once and still count. You can write a check, attend a gala, post about a cause, and the transaction is complete the moment the action is finished. This is not a criticism — transactions move real resources to real places, and the world needs them. But a transaction does not require you to know anyone's name.
+
+Service requires you to know names. It requires you to show up again, to the same place, to the same people, on a schedule they can come to expect and rely on. It requires a kind of patience that a single donation does not. And somewhere in that repetition, something shifts — the person you are serving stops being a recipient and starts being someone you actually know.
+
+I think this is the part most people skip, not out of unkindness, but because service is slower and less efficient than charity. It does not scale the way a transaction scales. You cannot serve ten thousand people personally, the way you can fund ten thousand meals with a single transfer. There is a real tension here, and I do not think it resolves cleanly.
+
+What I have chosen, for now, is to weight toward service even where it is less efficient — because I believe the relationship is doing something the transaction cannot. It is restoring a kind of mutual recognition that gets lost when help becomes anonymous and automated. The man on the steps I see most weeks knows my face. I know his. That fact changes both of us in a way that a donation receipt never could.
+
+I do not think charity and service are opposites. I think service is what charity becomes when you stay long enough to mean it.`,
+    published:   true,
+    cornerstone: true,
+    created_at:  '2025-08-01T00:00:00Z',
+  },
+  {
+    id:          '8',
+    slug:        'what-i-hope-outlives-me',
+    title:       'What I Hope Outlives Me',
+    category:    'Reflection',
+    excerpt:     'I think about this more than is probably healthy for someone my age. What survives after the person who built it is gone? Most things, honestly, do not.',
+    body:        `I think about this more than is probably healthy for someone my age. What survives after the person who built it is gone? Most things, honestly, do not. Businesses get sold or shuttered. Reputations fade within a generation or two. Even the causes people dedicate their lives to often quietly stall once the person driving them stops pushing.
+
+I do not want that to be true of this Foundation, and I have started to understand that wanting it is not enough. You have to build for it deliberately, from the beginning, in ways that are sometimes uncomfortable in the present because they limit your own control over the future.
+
+What I hope outlives me is not my name on a building. I have never found that kind of permanence compelling — a name on a wall says someone paid for something once, and that is all it says. What I hope outlives me is a pattern of behavior. A standing expectation, in the communities we serve, that someone will show up. Not me specifically. Whoever is doing this work by then.
+
+I hope the kitchens, if we build them, are still open in fifty years, run by people who never met me and do not need to have met me for the work to mean something. I hope a student somewhere receives a scholarship from a fund I helped start and has no idea who I was, because by then the fund has its own identity, separate from mine.
+
+I hope the principle survives even more than the programs do. What is given to us should be given forward — I hope that sentence outlives every specific initiative built underneath it, because the sentence is the actual inheritance. The programs are just the current expression of it.
+
+I will not be here to see most of this. I have made my peace with that. The work was never really about what I would get to witness. It was about setting something in motion that does not require my presence to keep moving.
+
+That is what I hope outlives me. Not a legacy with my name on it. A debt, being repaid forward, by people who never knew the original obligation was mine to begin with.`,
+    published:   true,
+    cornerstone: true,
+    created_at:  '2025-09-01T00:00:00Z',
   },
 ]

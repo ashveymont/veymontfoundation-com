@@ -52,7 +52,7 @@ export default function EntryBody({ entry, nextEntry }: EntryBodyProps) {
               marginBottom:  '16px',
             }}
           >
-            Continue reading
+            From the archive
           </p>
 
           {nextEntry ? (
